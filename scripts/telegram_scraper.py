@@ -119,7 +119,7 @@ async def scrape_channel(
     client: TelegramClient,
     channel_username: str,
     min_id: int = 0,
-    limit: int = 15,
+    limit: int = 10,
 ) -> tuple[list[DownloadedApk], int]:
     """Scrape a single Telegram channel for new APK files.
 
@@ -127,9 +127,8 @@ async def scrape_channel(
         client: Connected Telethon client.
         channel_username: Channel username (without @).
         min_id: Only fetch messages with ID greater than this.
-                If 0 (first run), fetches ONLY the single most recent APK/message
-                to establish a baseline and avoid long scans.
-        limit: Maximum number of messages to fetch per channel when min_id > 0.
+                If 0 (first run), fetches the last 10 messages.
+        limit: Maximum number of messages to fetch per channel (default: 10).
 
     Returns:
         Tuple of (downloaded_apks_list, latest_message_id_seen).
@@ -138,8 +137,7 @@ async def scrape_channel(
     downloaded = []
     latest_seen_id = min_id
 
-    # If first run (min_id == 0), only fetch 1 most recent message
-    effective_limit = 1 if min_id == 0 else limit
+    effective_limit = limit
 
     logger.info(
         "Scraping @%s (min_id=%d, effective_limit=%d)",
@@ -229,14 +227,14 @@ async def scrape_channel(
 async def scrape_all_channels(
     client: TelegramClient,
     channel_states: dict[str, int],
-    limit: int = 15,
+    limit: int = 10,
 ) -> tuple[list[DownloadedApk], dict[str, int]]:
     """Scrape all configured channels for new APK files.
 
     Args:
         client: Connected Telethon client.
         channel_states: Dict mapping channel username -> last processed message_id.
-        limit: Max messages to fetch per channel when min_id > 0.
+        limit: Max messages to fetch per channel (default: 10).
 
     Returns:
         Tuple of (all_downloaded_apks, updated_channel_states).
