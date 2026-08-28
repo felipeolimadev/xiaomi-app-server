@@ -80,6 +80,8 @@ The catalog is a JSON file updated on every sync. It contains all discovered app
     "com.miui.home": {
       "name": "Mi Launcher",
       "package_name": "com.miui.home",
+      "icon": "icons/com.miui.home.png",
+      "icon_url": "https://raw.githubusercontent.com/felipeolimadev/xiaomi-app-server/main/icons/com.miui.home.png",
       "latest_version": "4.39.14.7554",
       "latest_version_code": 414739014,
       "updated_at": "2026-08-28T14:30:00Z",
@@ -87,9 +89,10 @@ The catalog is a JSON file updated on every sync. It contains all discovered app
         {
           "version_name": "4.39.14.7554",
           "version_code": 414739014,
-          "file_name": "com.miui.home_v4.39.14.7554.apk",
+          "region": "global",
+          "file_name": "com.miui.home_v4.39.14.7554_global.apk",
           "file_size": 52428800,
-          "download_url": "https://github.com/.../releases/download/com.miui.home/com.miui.home_v4.39.14.7554.apk",
+          "download_url": "https://github.com/.../releases/download/com.miui.home/com.miui.home_v4.39.14.7554_global.apk",
           "min_sdk": 30,
           "target_sdk": 34,
           "source_channel": "@hyperossystemapps",

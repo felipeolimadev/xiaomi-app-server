@@ -94,6 +94,8 @@ def add_version(
     target_sdk: int | None,
     source_channel: str,
     region: str,
+    icon_path: str | None = None,
+    repo: str | None = None,
 ) -> None:
     """Add a new version entry to the catalog.
 
@@ -116,11 +118,15 @@ def add_version(
         "discovered_at": now,
     }
 
+    icon_url = f"https://raw.githubusercontent.com/{repo}/main/{icon_path}" if (icon_path and repo) else None
+
     if package_name not in apps:
         # New app — create full entry
         apps[package_name] = {
             "name": app_name,
             "package_name": package_name,
+            "icon": icon_path,
+            "icon_url": icon_url,
             "latest_version": version_name,
             "latest_version_code": version_code,
             "updated_at": now,
@@ -134,6 +140,11 @@ def add_version(
         # Existing app — append version
         app = apps[package_name]
         app["versions"].append(version_entry)
+
+        # Update icon if missing
+        if not app.get("icon") and icon_path:
+            app["icon"] = icon_path
+            app["icon_url"] = icon_url
 
         # Update latest if this version is newer
         if version_code > (app.get("latest_version_code") or 0):

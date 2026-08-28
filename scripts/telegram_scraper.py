@@ -119,36 +119,53 @@ async def scrape_channel(
     client: TelegramClient,
     channel_username: str,
     min_id: int = 0,
-    limit: int = 100,
-) -> list[DownloadedApk]:
+    limit: int = 15,
+) -> tuple[list[DownloadedApk], int]:
     """Scrape a single Telegram channel for new APK files.
 
     Args:
         client: Connected Telethon client.
         channel_username: Channel username (without @).
         min_id: Only fetch messages with ID greater than this.
-                Used to skip already-processed messages.
-        limit: Maximum number of messages to fetch per channel.
+                If 0 (first run), fetches ONLY the single most recent APK/message
+                to establish a baseline and avoid long scans.
+        limit: Maximum number of messages to fetch per channel when min_id > 0.
 
     Returns:
-        List of DownloadedApk objects for successfully downloaded files.
+        Tuple of (downloaded_apks_list, latest_message_id_seen).
     """
     DOWNLOADS_DIR.mkdir(parents=True, exist_ok=True)
     downloaded = []
+    latest_seen_id = min_id
+
+    # If first run (min_id == 0), only fetch 1 most recent message
+    effective_limit = 1 if min_id == 0 else limit
 
     logger.info(
-        "Scraping @%s (min_id=%d, limit=%d)", channel_username, min_id, limit
+        "Scraping @%s (min_id=%d, effective_limit=%d)",
+        channel_username, min_id, effective_limit,
     )
 
     try:
+        # On first run, also find the absolute latest message ID in channel
+        if min_id == 0:
+            try:
+                latest_msgs = await client.get_messages(channel_username, limit=1)
+                if latest_msgs:
+                    latest_seen_id = max(latest_seen_id, latest_msgs[0].id)
+            except Exception as exc:
+                logger.warning("Could not fetch latest message tip for @%s: %s", channel_username, exc)
+
         message_count = 0
         async for message in client.iter_messages(
             channel_username,
-            limit=limit,
+            limit=effective_limit,
             min_id=min_id,
             filter=InputMessagesFilterDocument,
         ):
             message_count += 1
+            if message.id > latest_seen_id:
+                latest_seen_id = message.id
 
             if not _is_apk(message):
                 continue
@@ -196,29 +213,30 @@ async def scrape_channel(
                 )
 
         logger.info(
-            "Finished @%s: scanned %d messages, downloaded %d APKs",
+            "Finished @%s: scanned %d messages, downloaded %d APKs, latest_id=%d",
             channel_username,
             message_count,
             len(downloaded),
+            latest_seen_id,
         )
 
     except Exception as exc:
         logger.error("Error scraping @%s: %s", channel_username, exc)
 
-    return downloaded
+    return downloaded, latest_seen_id
 
 
 async def scrape_all_channels(
     client: TelegramClient,
     channel_states: dict[str, int],
-    limit: int = 100,
+    limit: int = 15,
 ) -> tuple[list[DownloadedApk], dict[str, int]]:
     """Scrape all configured channels for new APK files.
 
     Args:
         client: Connected Telethon client.
         channel_states: Dict mapping channel username -> last processed message_id.
-        limit: Max messages to fetch per channel.
+        limit: Max messages to fetch per channel when min_id > 0.
 
     Returns:
         Tuple of (all_downloaded_apks, updated_channel_states).
@@ -228,14 +246,13 @@ async def scrape_all_channels(
 
     for channel in CHANNELS:
         min_id = channel_states.get(channel, 0)
-        apks = await scrape_channel(client, channel, min_id=min_id, limit=limit)
+        apks, latest_id = await scrape_channel(client, channel, min_id=min_id, limit=limit)
 
         all_downloaded.extend(apks)
 
-        # Update state to the highest message_id seen
-        if apks:
-            max_msg_id = max(apk.message_id for apk in apks)
-            updated_states[channel] = max(updated_states.get(channel, 0), max_msg_id)
+        # Update state with latest message ID seen
+        if latest_id > updated_states.get(channel, 0):
+            updated_states[channel] = latest_id
 
     logger.info(
         "Total: downloaded %d new APKs from %d channels",

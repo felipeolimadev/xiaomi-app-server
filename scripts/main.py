@@ -28,7 +28,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from apk_metadata import extract_apk_info
 from catalog import load_catalog, save_catalog, version_exists, add_version, get_stats
-from github_releases import ensure_release_and_upload
+from github_releases import ensure_release_and_upload, get_repo
 from telegram_scraper import create_client, scrape_all_channels
 
 # Paths
@@ -162,6 +162,7 @@ async def run() -> None:
             )
 
             # 3e. Update catalog
+            current_repo = get_repo()
             add_version(
                 catalog=catalog,
                 package_name=info.package_name,
@@ -175,6 +176,8 @@ async def run() -> None:
                 target_sdk=info.target_sdk,
                 source_channel=f"@{apk.channel}",
                 region=apk.region,
+                icon_path=info.icon_path,
+                repo=current_repo,
             )
             new_count += 1
 
