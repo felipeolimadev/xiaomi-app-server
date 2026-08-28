@@ -178,6 +178,9 @@ async def run() -> None:
             )
             new_count += 1
 
+            # Save immediately to disk on each processed APK
+            save_catalog(catalog, CATALOG_PATH)
+
             # Clean up downloaded file after upload
             std_path.unlink(missing_ok=True)
 
@@ -191,7 +194,7 @@ async def run() -> None:
             # Clean up on failure
             apk.file_path.unlink(missing_ok=True)
 
-    # 4. Save updated state and catalog
+    # 4. Save final state and catalog
     update_channel_states(state, updated_ids)
     save_state(state)
     save_catalog(catalog, CATALOG_PATH)
