@@ -1,0 +1,16 @@
+{
+  "channels": {
+    "hyperossystemapps": {
+      "last_message_id": 0,
+      "last_check": null
+    },
+    "MiuiSystemUpdater": {
+      "last_message_id": 0,
+      "last_check": null
+    },
+    "HyperOsUpdates": {
+      "last_message_id": 0,
+      "last_check": null
+    }
+  }
+}
