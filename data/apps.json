@@ -1,4 +1,63 @@
 {
-  "last_updated": null,
-  "apps": {}
+  "last_updated": "2026-08-28T19:25:52.326645+00:00",
+  "apps": {
+    "com.miui.home": {
+      "name": "System launcher",
+      "package_name": "com.miui.home",
+      "icon": "icons/com.miui.home.png",
+      "icon_url": "https://raw.githubusercontent.com/felipeolimadev/xiaomi-app-server/main/icons/com.miui.home.png",
+      "latest_version": "RELEASE-8.01.02.6174-260818-08281208-R",
+      "latest_version_code": 801026174,
+      "updated_at": "2026-08-28T19:25:41.454346+00:00",
+      "versions": [
+        {
+          "version_name": "RELEASE-8.01.02.6174-260818-08281208-R",
+          "version_code": 801026174,
+          "region": "unknown",
+          "file_name": "com.miui.home_vRELEASE-8.01.02.6174-260818-08281208-R_unknown.apk",
+          "file_size": 73700232,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.miui.home/com.miui.home_vRELEASE-8.01.02.6174-260818-08281208-R_unknown.apk",
+          "min_sdk": 35,
+          "target_sdk": 36,
+          "source_channel": "@hyperossystemapps",
+          "discovered_at": "2026-08-28T19:25:41.454346+00:00"
+        },
+        {
+          "version_name": "RELEASE-7.50.06.2580-08212252",
+          "version_code": 750062580,
+          "region": "india",
+          "file_name": "com.miui.home_vRELEASE-7.50.06.2580-08212252_india.apk",
+          "file_size": 28278997,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.miui.home/com.miui.home_vRELEASE-7.50.06.2580-08212252_india.apk",
+          "min_sdk": 34,
+          "target_sdk": 35,
+          "source_channel": "@HyperOsUpdates",
+          "discovered_at": "2026-08-28T19:25:52.324346+00:00"
+        }
+      ]
+    },
+    "com.miui.aod": {
+      "name": "Always-on display and Lock screen editor",
+      "package_name": "com.miui.aod",
+      "icon": "icons/com.miui.aod.png",
+      "icon_url": "https://raw.githubusercontent.com/felipeolimadev/xiaomi-app-server/main/icons/com.miui.aod.png",
+      "latest_version": "DEV-2445.2.0.1-08241455",
+      "latest_version_code": 22445201,
+      "updated_at": "2026-08-28T19:25:47.955980+00:00",
+      "versions": [
+        {
+          "version_name": "DEV-2445.2.0.1-08241455",
+          "version_code": 22445201,
+          "region": "unknown",
+          "file_name": "com.miui.aod_vDEV-2445.2.0.1-08241455_unknown.apk",
+          "file_size": 57598556,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.miui.aod/com.miui.aod_vDEV-2445.2.0.1-08241455_unknown.apk",
+          "min_sdk": 33,
+          "target_sdk": 36,
+          "source_channel": "@MiuiSystemUpdater",
+          "discovered_at": "2026-08-28T19:25:47.955980+00:00"
+        }
+      ]
+    }
+  }
 }
