@@ -155,12 +155,14 @@ async def scrape_channel(
                 logger.warning("Could not fetch latest message tip for @%s: %s", channel_username, exc)
 
         message_count = 0
-        async for message in client.iter_messages(
-            channel_username,
-            limit=effective_limit,
-            min_id=min_id,
-            filter=InputMessagesFilterDocument,
-        ):
+        iter_kwargs = {
+            "limit": effective_limit,
+            "filter": InputMessagesFilterDocument,
+        }
+        if min_id > 0:
+            iter_kwargs["min_id"] = min_id
+
+        async for message in client.iter_messages(channel_username, **iter_kwargs):
             message_count += 1
             if message.id > latest_seen_id:
                 latest_seen_id = message.id
