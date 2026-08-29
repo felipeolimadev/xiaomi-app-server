@@ -2,7 +2,7 @@ name: Sync Xiaomi APKs
 
 on:
   schedule:
-    - cron: '0 * * * *'  # Every hour
+    - cron: '15,45 * * * *'  # Runs every 30 minutes at off-peak minutes (:15 and :45)
   workflow_dispatch:       # Manual trigger from GitHub UI
 
 permissions:
