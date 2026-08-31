@@ -115,46 +115,46 @@ def _is_apk(message) -> bool:
     )
 
 
-async def scrape_channel(
+@dataclass
+class ApkMessageItem:
+    """Represents an APK message candidate from Telegram before downloading."""
+
+    message: Any
+    channel: str
+    file_name: str
+    file_size: int
+    region: str
+
+
+async def get_channel_latest_id(client: TelegramClient, channel_username: str) -> int:
+    """Get the absolute newest message ID in a channel."""
+    try:
+        latest_msgs = await client.get_messages(channel_username, limit=1)
+        if latest_msgs:
+            return latest_msgs[0].id
+    except Exception as exc:
+        logger.warning("Could not fetch latest message tip for @%s: %s", channel_username, exc)
+    return 0
+
+
+async def iter_channel_apk_messages(
     client: TelegramClient,
     channel_username: str,
     min_id: int = 0,
     limit: int = 10,
-) -> tuple[list[DownloadedApk], int]:
-    """Scrape a single Telegram channel for new APK files.
+):
+    """Iterate over APK document messages in a channel without downloading upfront.
 
-    Args:
-        client: Connected Telethon client.
-        channel_username: Channel username (without @).
-        min_id: Only fetch messages with ID greater than this.
-                If 0 (first run), fetches the last 10 messages.
-        limit: Maximum number of messages to fetch per channel (default: 10).
-
-    Returns:
-        Tuple of (downloaded_apks_list, latest_message_id_seen).
+    Yields ApkMessageItem objects.
     """
-    DOWNLOADS_DIR.mkdir(parents=True, exist_ok=True)
-    downloaded = []
-    latest_seen_id = min_id
-
     effective_limit = limit
 
     logger.info(
-        "Scraping @%s (min_id=%d, effective_limit=%d)",
+        "Checking @%s (min_id=%d, limit=%d)",
         channel_username, min_id, effective_limit,
     )
 
     try:
-        # On first run, also find the absolute latest message ID in channel
-        if min_id == 0:
-            try:
-                latest_msgs = await client.get_messages(channel_username, limit=1)
-                if latest_msgs:
-                    latest_seen_id = max(latest_seen_id, latest_msgs[0].id)
-            except Exception as exc:
-                logger.warning("Could not fetch latest message tip for @%s: %s", channel_username, exc)
-
-        message_count = 0
         iter_kwargs = {
             "limit": effective_limit,
             "filter": InputMessagesFilterDocument,
@@ -163,100 +163,28 @@ async def scrape_channel(
             iter_kwargs["min_id"] = min_id
 
         async for message in client.iter_messages(channel_username, **iter_kwargs):
-            message_count += 1
-            if message.id > latest_seen_id:
-                latest_seen_id = message.id
-
             if not _is_apk(message):
                 continue
 
-            file_name = message.file.name
+            file_name = message.file.name or f"app_{message.id}.apk"
             file_size = message.file.size or 0
-
-            # Detect region from caption and filename
             region = detect_region(message.text, file_name)
 
-            logger.info(
-                "Found APK: %s (%.2f MB, region=%s) in @%s [msg #%d]",
-                file_name,
-                file_size / (1024 * 1024),
-                region,
-                channel_username,
-                message.id,
+            yield ApkMessageItem(
+                message=message,
+                channel=channel_username,
+                file_name=file_name,
+                file_size=file_size,
+                region=region,
             )
 
-            # Download the APK
-            try:
-                target_path = DOWNLOADS_DIR / file_name
-                await message.download_media(file=str(target_path))
-
-                downloaded.append(
-                    DownloadedApk(
-                        file_path=target_path,
-                        file_name=file_name,
-                        file_size=file_size,
-                        channel=channel_username,
-                        message_id=message.id,
-                        date=message.date,
-                        caption=message.text,
-                        region=region,
-                    )
-                )
-                logger.info("Downloaded: %s", target_path)
-
-            except Exception as exc:
-                logger.error(
-                    "Failed to download %s from @%s: %s",
-                    file_name,
-                    channel_username,
-                    exc,
-                )
-
-        logger.info(
-            "Finished @%s: scanned %d messages, downloaded %d APKs, latest_id=%d",
-            channel_username,
-            message_count,
-            len(downloaded),
-            latest_seen_id,
-        )
-
     except Exception as exc:
-        logger.error("Error scraping @%s: %s", channel_username, exc)
-
-    return downloaded, latest_seen_id
+        logger.error("Error checking @%s: %s", channel_username, exc)
 
 
-async def scrape_all_channels(
-    client: TelegramClient,
-    channel_states: dict[str, int],
-    limit: int = 10,
-) -> tuple[list[DownloadedApk], dict[str, int]]:
-    """Scrape all configured channels for new APK files.
-
-    Args:
-        client: Connected Telethon client.
-        channel_states: Dict mapping channel username -> last processed message_id.
-        limit: Max messages to fetch per channel (default: 10).
-
-    Returns:
-        Tuple of (all_downloaded_apks, updated_channel_states).
-    """
-    all_downloaded: list[DownloadedApk] = []
-    updated_states: dict[str, int] = dict(channel_states)
-
-    for channel in CHANNELS:
-        min_id = channel_states.get(channel, 0)
-        apks, latest_id = await scrape_channel(client, channel, min_id=min_id, limit=limit)
-
-        all_downloaded.extend(apks)
-
-        # Update state with latest message ID seen
-        if latest_id > updated_states.get(channel, 0):
-            updated_states[channel] = latest_id
-
-    logger.info(
-        "Total: downloaded %d new APKs from %d channels",
-        len(all_downloaded),
-        len(CHANNELS),
-    )
-    return all_downloaded, updated_states
+async def download_apk_file(message, file_name: str) -> Path:
+    """Download a single APK from a Telegram message."""
+    DOWNLOADS_DIR.mkdir(parents=True, exist_ok=True)
+    target_path = DOWNLOADS_DIR / file_name
+    await message.download_media(file=str(target_path))
+    return target_path
