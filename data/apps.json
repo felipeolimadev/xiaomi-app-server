@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-31T11:19:48.008233+00:00",
+  "last_updated": "2026-08-31T15:42:11.566847+00:00",
   "apps": {
     "com.miui.home": {
       "name": "System launcher",
@@ -57,6 +57,30 @@
           "target_sdk": 36,
           "source_channel": "@hyperossystemapps",
           "discovered_at": "2026-08-31T11:14:30.488952+00:00"
+        },
+        {
+          "version_name": "RELEASE-7.50.06.2580-08212252",
+          "version_code": 750062580,
+          "region": "unknown",
+          "file_name": "com.miui.home_vRELEASE-7.50.06.2580-08212252_unknown.apk",
+          "file_size": 28278997,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.miui.home/com.miui.home_vRELEASE-7.50.06.2580-08212252_unknown.apk",
+          "min_sdk": 34,
+          "target_sdk": 35,
+          "source_channel": "@MiuiSystemUpdater",
+          "discovered_at": "2026-08-31T15:32:05.393709+00:00"
+        },
+        {
+          "version_name": "RELEASE-8.01.02.6144-260818-08251107-R",
+          "version_code": 801026144,
+          "region": "unknown",
+          "file_name": "com.miui.home_vRELEASE-8.01.02.6144-260818-08251107-R_unknown.apk",
+          "file_size": 56223785,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.miui.home/com.miui.home_vRELEASE-8.01.02.6144-260818-08251107-R_unknown.apk",
+          "min_sdk": 35,
+          "target_sdk": 36,
+          "source_channel": "@MiuiSystemUpdater",
+          "discovered_at": "2026-08-31T15:36:21.367034+00:00"
         }
       ]
     },
@@ -115,6 +139,75 @@
           "target_sdk": 36,
           "source_channel": "@hyperossystemapps",
           "discovered_at": "2026-08-31T11:19:48.001292+00:00"
+        }
+      ]
+    },
+    "com.miui.securitycore": {
+      "name": "System features plug-in",
+      "package_name": "com.miui.securitycore",
+      "icon": "icons/com.miui.securitycore.webp",
+      "icon_url": "https://raw.githubusercontent.com/felipeolimadev/xiaomi-app-server/main/icons/com.miui.securitycore.webp",
+      "latest_version": "4.4.3.6-4-260819",
+      "latest_version_code": 40004436,
+      "updated_at": "2026-08-31T15:30:41.172417+00:00",
+      "versions": [
+        {
+          "version_name": "4.4.3.6-4-260819",
+          "version_code": 40004436,
+          "region": "unknown",
+          "file_name": "com.miui.securitycore_v4.4.3.6-4-260819_unknown.apk",
+          "file_size": 24508922,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.miui.securitycore/com.miui.securitycore_v4.4.3.6-4-260819_unknown.apk",
+          "min_sdk": 30,
+          "target_sdk": 36,
+          "source_channel": "@MiuiSystemUpdater",
+          "discovered_at": "2026-08-31T15:30:41.172417+00:00"
+        }
+      ]
+    },
+    "com.android.calendar": {
+      "name": "Calendar",
+      "package_name": "com.android.calendar",
+      "icon": "icons/com.android.calendar.webp",
+      "icon_url": "https://raw.githubusercontent.com/felipeolimadev/xiaomi-app-server/main/icons/com.android.calendar.webp",
+      "latest_version": "18.0.1.25",
+      "latest_version_code": 180001250,
+      "updated_at": "2026-08-31T15:32:59.404373+00:00",
+      "versions": [
+        {
+          "version_name": "18.0.1.25",
+          "version_code": 180001250,
+          "region": "unknown",
+          "file_name": "com.android.calendar_v18.0.1.25_unknown.apk",
+          "file_size": 17827066,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.android.calendar/com.android.calendar_v18.0.1.25_unknown.apk",
+          "min_sdk": 26,
+          "target_sdk": 36,
+          "source_channel": "@MiuiSystemUpdater",
+          "discovered_at": "2026-08-31T15:32:59.404373+00:00"
+        }
+      ]
+    },
+    "com.miui.notification": {
+      "name": "Notifications",
+      "package_name": "com.miui.notification",
+      "icon": "icons/com.miui.notification.png",
+      "icon_url": "https://raw.githubusercontent.com/felipeolimadev/xiaomi-app-server/main/icons/com.miui.notification.png",
+      "latest_version": "4.1.2.84.0",
+      "latest_version_code": 41028400,
+      "updated_at": "2026-08-31T15:33:38.087657+00:00",
+      "versions": [
+        {
+          "version_name": "4.1.2.84.0",
+          "version_code": 41028400,
+          "region": "unknown",
+          "file_name": "com.miui.notification_v4.1.2.84.0_unknown.apk",
+          "file_size": 12335281,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.miui.notification/com.miui.notification_v4.1.2.84.0_unknown.apk",
+          "min_sdk": 31,
+          "target_sdk": 36,
+          "source_channel": "@MiuiSystemUpdater",
+          "discovered_at": "2026-08-31T15:33:38.087657+00:00"
         }
       ]
     }
