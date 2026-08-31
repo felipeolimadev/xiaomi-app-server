@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-31T15:42:11.566847+00:00",
+  "last_updated": "2026-08-31T21:17:49.665866+00:00",
   "apps": {
     "com.miui.home": {
       "name": "System launcher",
@@ -208,6 +208,98 @@
           "target_sdk": 36,
           "source_channel": "@MiuiSystemUpdater",
           "discovered_at": "2026-08-31T15:33:38.087657+00:00"
+        }
+      ]
+    },
+    "com.miui.mediaeditor": {
+      "name": "Gallery Editor",
+      "package_name": "com.miui.mediaeditor",
+      "icon": "icons/com.miui.mediaeditor.png",
+      "icon_url": "https://raw.githubusercontent.com/felipeolimadev/xiaomi-app-server/main/icons/com.miui.mediaeditor.png",
+      "latest_version": "2.4.0.5.2-global",
+      "latest_version_code": 204990052,
+      "updated_at": "2026-08-31T21:08:42.785005+00:00",
+      "versions": [
+        {
+          "version_name": "2.4.0.5.2-global",
+          "version_code": 204990052,
+          "region": "global",
+          "file_name": "com.miui.mediaeditor_v2.4.0.5.2-global_global.apk",
+          "file_size": 204271853,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.miui.mediaeditor/com.miui.mediaeditor_v2.4.0.5.2-global_global.apk",
+          "min_sdk": 32,
+          "target_sdk": 35,
+          "source_channel": "@MiuiSystemUpdater",
+          "discovered_at": "2026-08-31T21:08:42.785005+00:00"
+        }
+      ]
+    },
+    "com.mi.appfinder": {
+      "name": "App finder",
+      "package_name": "com.mi.appfinder",
+      "icon": "icons/com.mi.appfinder.webp",
+      "icon_url": "https://raw.githubusercontent.com/felipeolimadev/xiaomi-app-server/main/icons/com.mi.appfinder.webp",
+      "latest_version": "1.28.0",
+      "latest_version_code": 20260827,
+      "updated_at": "2026-08-31T21:12:41.512259+00:00",
+      "versions": [
+        {
+          "version_name": "1.28.0",
+          "version_code": 20260827,
+          "region": "unknown",
+          "file_name": "com.mi.appfinder_v1.28.0_unknown.apk",
+          "file_size": 52524766,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.mi.appfinder/com.mi.appfinder_v1.28.0_unknown.apk",
+          "min_sdk": 30,
+          "target_sdk": 36,
+          "source_channel": "@HyperOsUpdates",
+          "discovered_at": "2026-08-31T21:12:41.512259+00:00"
+        }
+      ]
+    },
+    "com.android.camera": {
+      "name": "Camera",
+      "package_name": "com.android.camera",
+      "icon": "icons/com.android.camera.webp",
+      "icon_url": "https://raw.githubusercontent.com/felipeolimadev/xiaomi-app-server/main/icons/com.android.camera.webp",
+      "latest_version": "6.6.000540.1",
+      "latest_version_code": 660005401,
+      "updated_at": "2026-08-31T21:15:15.503504+00:00",
+      "versions": [
+        {
+          "version_name": "6.6.000540.1",
+          "version_code": 660005401,
+          "region": "poco",
+          "file_name": "com.android.camera_v6.6.000540.1_poco.apk",
+          "file_size": 190631781,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.android.camera/com.android.camera_v6.6.000540.1_poco.apk",
+          "min_sdk": 29,
+          "target_sdk": 36,
+          "source_channel": "@HyperOsUpdates",
+          "discovered_at": "2026-08-31T21:15:15.503504+00:00"
+        }
+      ]
+    },
+    "com.xiaomi.aicr": {
+      "name": "Xiaomi HyperAI Engine",
+      "package_name": "com.xiaomi.aicr",
+      "icon": "icons/com.xiaomi.aicr.webp",
+      "icon_url": "https://raw.githubusercontent.com/felipeolimadev/xiaomi-app-server/main/icons/com.xiaomi.aicr.webp",
+      "latest_version": "4.12.16",
+      "latest_version_code": 2030041216,
+      "updated_at": "2026-08-31T21:17:49.659340+00:00",
+      "versions": [
+        {
+          "version_name": "4.12.16",
+          "version_code": 2030041216,
+          "region": "unknown",
+          "file_name": "com.xiaomi.aicr_v4.12.16_unknown.apk",
+          "file_size": 73781555,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.xiaomi.aicr/com.xiaomi.aicr_v4.12.16_unknown.apk",
+          "min_sdk": 34,
+          "target_sdk": 36,
+          "source_channel": "@HyperOsUpdates",
+          "discovered_at": "2026-08-31T21:17:49.659340+00:00"
         }
       ]
     }
