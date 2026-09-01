@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-01T10:33:53.186178+00:00",
+  "last_updated": "2026-09-01T15:12:53.535373+00:00",
   "apps": {
     "com.miui.home": {
       "name": "System launcher",
@@ -358,6 +358,41 @@
           "target_sdk": 35,
           "source_channel": "@HyperOsUpdates",
           "discovered_at": "2026-09-01T10:33:53.178964+00:00"
+        }
+      ]
+    },
+    "com.miui.securityadd": {
+      "name": "System service plugin",
+      "package_name": "com.miui.securityadd",
+      "icon": "icons/com.miui.securityadd.png",
+      "icon_url": "https://raw.githubusercontent.com/felipeolimadev/xiaomi-app-server/main/icons/com.miui.securityadd.png",
+      "latest_version": "9.12.11-260806.1.1",
+      "latest_version_code": 91211,
+      "updated_at": "2026-09-01T15:12:25.089369+00:00",
+      "versions": [
+        {
+          "version_name": "9.12.11-260806.1.1",
+          "version_code": 91211,
+          "region": "global",
+          "file_name": "com.miui.securityadd_v9.12.11-260806.1.1_global.apk",
+          "file_size": 18782146,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.miui.securityadd/com.miui.securityadd_v9.12.11-260806.1.1_global.apk",
+          "min_sdk": 21,
+          "target_sdk": 36,
+          "source_channel": "@MiuiSystemUpdater",
+          "discovered_at": "2026-09-01T15:12:25.089369+00:00"
+        },
+        {
+          "version_name": "9.12.11-260806.1.1",
+          "version_code": 91211,
+          "region": "unknown",
+          "file_name": "com.miui.securityadd_v9.12.11-260806.1.1_unknown.apk",
+          "file_size": 18782146,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.miui.securityadd/com.miui.securityadd_v9.12.11-260806.1.1_unknown.apk",
+          "min_sdk": 21,
+          "target_sdk": 36,
+          "source_channel": "@HyperOsUpdates",
+          "discovered_at": "2026-09-01T15:12:53.532303+00:00"
         }
       ]
     }
