@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-01T05:41:32.697001+00:00",
+  "last_updated": "2026-09-01T10:33:53.186178+00:00",
   "apps": {
     "com.miui.home": {
       "name": "System launcher",
@@ -254,6 +254,18 @@
           "target_sdk": 36,
           "source_channel": "@HyperOsUpdates",
           "discovered_at": "2026-08-31T21:12:41.512259+00:00"
+        },
+        {
+          "version_name": "1.28.0",
+          "version_code": 20260827,
+          "region": "global",
+          "file_name": "com.mi.appfinder_v1.28.0_global.apk",
+          "file_size": 52524766,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.mi.appfinder/com.mi.appfinder_v1.28.0_global.apk",
+          "min_sdk": 30,
+          "target_sdk": 36,
+          "source_channel": "@MiuiSystemUpdater",
+          "discovered_at": "2026-09-01T10:32:19.508361+00:00"
         }
       ]
     },
@@ -300,6 +312,52 @@
           "target_sdk": 36,
           "source_channel": "@HyperOsUpdates",
           "discovered_at": "2026-08-31T21:17:49.659340+00:00"
+        }
+      ]
+    },
+    "com.miui.gallery": {
+      "name": "Gallery",
+      "package_name": "com.miui.gallery",
+      "icon": "icons/com.miui.gallery.png",
+      "icon_url": "https://raw.githubusercontent.com/felipeolimadev/xiaomi-app-server/main/icons/com.miui.gallery.png",
+      "latest_version": "5.0.7.13-0818-R",
+      "latest_version_code": 5000713,
+      "updated_at": "2026-09-01T10:31:23.249258+00:00",
+      "versions": [
+        {
+          "version_name": "5.0.7.13-0818-R",
+          "version_code": 5000713,
+          "region": "unknown",
+          "file_name": "com.miui.gallery_v5.0.7.13-0818-R_unknown.apk",
+          "file_size": 56444989,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.miui.gallery/com.miui.gallery_v5.0.7.13-0818-R_unknown.apk",
+          "min_sdk": 35,
+          "target_sdk": 35,
+          "source_channel": "@hyperossystemapps",
+          "discovered_at": "2026-09-01T10:31:23.249258+00:00"
+        }
+      ]
+    },
+    "com.milink.service": {
+      "name": "Interconnectivity",
+      "package_name": "com.milink.service",
+      "icon": "icons/com.milink.service.webp",
+      "icon_url": "https://raw.githubusercontent.com/felipeolimadev/xiaomi-app-server/main/icons/com.milink.service.webp",
+      "latest_version": "17.2.4.1.2608101641-global",
+      "latest_version_code": 1517020401,
+      "updated_at": "2026-09-01T10:33:53.178964+00:00",
+      "versions": [
+        {
+          "version_name": "17.2.4.1.2608101641-global",
+          "version_code": 1517020401,
+          "region": "global",
+          "file_name": "com.milink.service_v17.2.4.1.2608101641-global_global.apk",
+          "file_size": 90390106,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.milink.service/com.milink.service_v17.2.4.1.2608101641-global_global.apk",
+          "min_sdk": 28,
+          "target_sdk": 35,
+          "source_channel": "@HyperOsUpdates",
+          "discovered_at": "2026-09-01T10:33:53.178964+00:00"
         }
       ]
     }
