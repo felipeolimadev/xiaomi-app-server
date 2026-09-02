@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-02T01:25:39.759081+00:00",
+  "last_updated": "2026-09-02T06:29:54.913196+00:00",
   "apps": {
     "com.miui.home": {
       "name": "System launcher",
@@ -393,6 +393,29 @@
           "target_sdk": 36,
           "source_channel": "@HyperOsUpdates",
           "discovered_at": "2026-09-01T15:12:53.532303+00:00"
+        }
+      ]
+    },
+    "com.miui.player": {
+      "name": "Music",
+      "package_name": "com.miui.player",
+      "icon": "icons/com.miui.player.webp",
+      "icon_url": "https://raw.githubusercontent.com/felipeolimadev/xiaomi-app-server/main/icons/com.miui.player.webp",
+      "latest_version": "9.41.01.082416i",
+      "latest_version_code": 5550,
+      "updated_at": "2026-09-02T06:29:54.903841+00:00",
+      "versions": [
+        {
+          "version_name": "9.41.01.082416i",
+          "version_code": 5550,
+          "region": "unknown",
+          "file_name": "com.miui.player_v9.41.01.082416i_unknown.apk",
+          "file_size": 141486418,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.miui.player/com.miui.player_v9.41.01.082416i_unknown.apk",
+          "min_sdk": 26,
+          "target_sdk": 36,
+          "source_channel": "@HyperOsUpdates",
+          "discovered_at": "2026-09-02T06:29:54.903841+00:00"
         }
       ]
     }
