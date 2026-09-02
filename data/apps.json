@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-09-02T06:29:54.913196+00:00",
+  "last_updated": "2026-09-02T11:53:28.563317+00:00",
   "apps": {
     "com.miui.home": {
       "name": "System launcher",
       "package_name": "com.miui.home",
       "icon": "icons/com.miui.home.png",
       "icon_url": "https://raw.githubusercontent.com/felipeolimadev/xiaomi-app-server/main/icons/com.miui.home.png",
-      "latest_version": "RELEASE-8.01.02.6179-260818-08292132-R",
-      "latest_version_code": 801026179,
-      "updated_at": "2026-08-31T11:09:34.446942+00:00",
+      "latest_version": "RELEASE-8.01.02.6230-260818-09011224-R",
+      "latest_version_code": 801026230,
+      "updated_at": "2026-09-02T11:48:13.226263+00:00",
       "versions": [
         {
           "version_name": "RELEASE-8.01.02.6174-260818-08281208-R",
@@ -81,6 +81,18 @@
           "target_sdk": 36,
           "source_channel": "@MiuiSystemUpdater",
           "discovered_at": "2026-08-31T15:36:21.367034+00:00"
+        },
+        {
+          "version_name": "RELEASE-8.01.02.6230-260818-09011224-R",
+          "version_code": 801026230,
+          "region": "unknown",
+          "file_name": "com.miui.home_vRELEASE-8.01.02.6230-260818-09011224-R_unknown.apk",
+          "file_size": 73749384,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.miui.home/com.miui.home_vRELEASE-8.01.02.6230-260818-09011224-R_unknown.apk",
+          "min_sdk": 35,
+          "target_sdk": 36,
+          "source_channel": "@hyperossystemapps",
+          "discovered_at": "2026-09-02T11:48:13.226263+00:00"
         }
       ]
     },
@@ -416,6 +428,29 @@
           "target_sdk": 36,
           "source_channel": "@HyperOsUpdates",
           "discovered_at": "2026-09-02T06:29:54.903841+00:00"
+        }
+      ]
+    },
+    "com.miui.weather2": {
+      "name": "Weather",
+      "package_name": "com.miui.weather2",
+      "icon": "icons/com.miui.weather2.webp",
+      "icon_url": "https://raw.githubusercontent.com/felipeolimadev/xiaomi-app-server/main/icons/com.miui.weather2.webp",
+      "latest_version": "18.0.0.24-R",
+      "latest_version_code": 180000240,
+      "updated_at": "2026-09-02T11:50:05.157905+00:00",
+      "versions": [
+        {
+          "version_name": "18.0.0.24-R",
+          "version_code": 180000240,
+          "region": "unknown",
+          "file_name": "com.miui.weather2_v18.0.0.24-R_unknown.apk",
+          "file_size": 39302528,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.miui.weather2/com.miui.weather2_v18.0.0.24-R_unknown.apk",
+          "min_sdk": 24,
+          "target_sdk": 36,
+          "source_channel": "@HyperOsUpdates",
+          "discovered_at": "2026-09-02T11:50:05.157905+00:00"
         }
       ]
     }
