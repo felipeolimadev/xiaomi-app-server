@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-02T11:53:28.563317+00:00",
+  "last_updated": "2026-09-02T15:27:13.415320+00:00",
   "apps": {
     "com.miui.home": {
       "name": "System launcher",
@@ -151,6 +151,18 @@
           "target_sdk": 36,
           "source_channel": "@hyperossystemapps",
           "discovered_at": "2026-08-31T11:19:48.001292+00:00"
+        },
+        {
+          "version_name": "12.8.3-260831.0.1",
+          "version_code": 40001283,
+          "region": "unknown",
+          "file_name": "com.miui.securitycenter_v12.8.3-260831.0.1_unknown.apk",
+          "file_size": 73423552,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.miui.securitycenter/com.miui.securitycenter_v12.8.3-260831.0.1_unknown.apk",
+          "min_sdk": 26,
+          "target_sdk": 35,
+          "source_channel": "@HyperOsUpdates",
+          "discovered_at": "2026-09-02T15:27:13.409854+00:00"
         }
       ]
     },
@@ -428,6 +440,18 @@
           "target_sdk": 36,
           "source_channel": "@HyperOsUpdates",
           "discovered_at": "2026-09-02T06:29:54.903841+00:00"
+        },
+        {
+          "version_name": "9.41.01.082416i",
+          "version_code": 5550,
+          "region": "global",
+          "file_name": "com.miui.player_v9.41.01.082416i_global.apk",
+          "file_size": 141486418,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.miui.player/com.miui.player_v9.41.01.082416i_global.apk",
+          "min_sdk": 26,
+          "target_sdk": 36,
+          "source_channel": "@MiuiSystemUpdater",
+          "discovered_at": "2026-09-02T15:24:24.879082+00:00"
         }
       ]
     },
