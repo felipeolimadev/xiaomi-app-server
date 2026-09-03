@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-03T09:50:48.486755+00:00",
+  "last_updated": "2026-09-03T14:42:40.434099+00:00",
   "apps": {
     "com.miui.home": {
       "name": "System launcher",
@@ -101,9 +101,9 @@
       "package_name": "com.miui.aod",
       "icon": "icons/com.miui.aod.png",
       "icon_url": "https://raw.githubusercontent.com/felipeolimadev/xiaomi-app-server/main/icons/com.miui.aod.png",
-      "latest_version": "DEV-2445.2.0.1-08241455",
-      "latest_version_code": 22445201,
-      "updated_at": "2026-08-28T19:25:47.955980+00:00",
+      "latest_version": "DEV-2445.3.0.1-08241650",
+      "latest_version_code": 22445301,
+      "updated_at": "2026-09-03T14:42:40.428409+00:00",
       "versions": [
         {
           "version_name": "DEV-2445.2.0.1-08241455",
@@ -116,6 +116,18 @@
           "target_sdk": 36,
           "source_channel": "@MiuiSystemUpdater",
           "discovered_at": "2026-08-28T19:25:47.955980+00:00"
+        },
+        {
+          "version_name": "DEV-2445.3.0.1-08241650",
+          "version_code": 22445301,
+          "region": "unknown",
+          "file_name": "com.miui.aod_vDEV-2445.3.0.1-08241650_unknown.apk",
+          "file_size": 57586276,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.miui.aod/com.miui.aod_vDEV-2445.3.0.1-08241650_unknown.apk",
+          "min_sdk": 33,
+          "target_sdk": 36,
+          "source_channel": "@HyperOsUpdates",
+          "discovered_at": "2026-09-03T14:42:40.428409+00:00"
         }
       ]
     },
@@ -336,6 +348,18 @@
           "target_sdk": 36,
           "source_channel": "@HyperOsUpdates",
           "discovered_at": "2026-08-31T21:17:49.659340+00:00"
+        },
+        {
+          "version_name": "3.63.2",
+          "version_code": 2030036302,
+          "region": "unknown",
+          "file_name": "com.xiaomi.aicr_v3.63.2_unknown.apk",
+          "file_size": 74027563,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.xiaomi.aicr/com.xiaomi.aicr_v3.63.2_unknown.apk",
+          "min_sdk": 34,
+          "target_sdk": 36,
+          "source_channel": "@HyperOsUpdates",
+          "discovered_at": "2026-09-03T14:37:55.886109+00:00"
         }
       ]
     },
@@ -475,6 +499,121 @@
           "target_sdk": 36,
           "source_channel": "@HyperOsUpdates",
           "discovered_at": "2026-09-02T11:50:05.157905+00:00"
+        }
+      ]
+    },
+    "com.xiaomi.joyose": {
+      "name": "Joyose",
+      "package_name": "com.xiaomi.joyose",
+      "icon": null,
+      "icon_url": null,
+      "latest_version": "2.5.20",
+      "latest_version_code": 520,
+      "updated_at": "2026-09-03T14:35:53.447648+00:00",
+      "versions": [
+        {
+          "version_name": "2.5.20",
+          "version_code": 520,
+          "region": "unknown",
+          "file_name": "com.xiaomi.joyose_v2.5.20_unknown.apk",
+          "file_size": 2334525,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.xiaomi.joyose/com.xiaomi.joyose_v2.5.20_unknown.apk",
+          "min_sdk": 24,
+          "target_sdk": 36,
+          "source_channel": "@MiuiSystemUpdater",
+          "discovered_at": "2026-09-03T14:35:53.447648+00:00"
+        }
+      ]
+    },
+    "com.xiaomi.account": {
+      "name": "Xiaomi Account",
+      "package_name": "com.xiaomi.account",
+      "icon": "icons/com.xiaomi.account.png",
+      "icon_url": "https://raw.githubusercontent.com/felipeolimadev/xiaomi-app-server/main/icons/com.xiaomi.account.png",
+      "latest_version": "RG-26.08.05.00",
+      "latest_version_code": 326080500,
+      "updated_at": "2026-09-03T14:36:24.641868+00:00",
+      "versions": [
+        {
+          "version_name": "RG-26.08.05.00",
+          "version_code": 326080500,
+          "region": "unknown",
+          "file_name": "com.xiaomi.account_vRG-26.08.05.00_unknown.apk",
+          "file_size": 21189514,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.xiaomi.account/com.xiaomi.account_vRG-26.08.05.00_unknown.apk",
+          "min_sdk": 28,
+          "target_sdk": 36,
+          "source_channel": "@HyperOsUpdates",
+          "discovered_at": "2026-09-03T14:36:24.641868+00:00"
+        }
+      ]
+    },
+    "com.miui.miwallpaper": {
+      "name": "MiWallpaper",
+      "package_name": "com.miui.miwallpaper",
+      "icon": "icons/com.miui.miwallpaper.png",
+      "icon_url": "https://raw.githubusercontent.com/felipeolimadev/xiaomi-app-server/main/icons/com.miui.miwallpaper.png",
+      "latest_version": "5.6.6-ALPHA-08211734",
+      "latest_version_code": 500566000,
+      "updated_at": "2026-09-03T14:38:13.140434+00:00",
+      "versions": [
+        {
+          "version_name": "5.6.6-ALPHA-08211734",
+          "version_code": 500566000,
+          "region": "unknown",
+          "file_name": "com.miui.miwallpaper_v5.6.6-ALPHA-08211734_unknown.apk",
+          "file_size": 11546606,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.miui.miwallpaper/com.miui.miwallpaper_v5.6.6-ALPHA-08211734_unknown.apk",
+          "min_sdk": 33,
+          "target_sdk": 37,
+          "source_channel": "@HyperOsUpdates",
+          "discovered_at": "2026-09-03T14:38:13.140434+00:00"
+        }
+      ]
+    },
+    "com.miui.misound": {
+      "name": "Earphones",
+      "package_name": "com.miui.misound",
+      "icon": "icons/com.miui.misound.png",
+      "icon_url": "https://raw.githubusercontent.com/felipeolimadev/xiaomi-app-server/main/icons/com.miui.misound.png",
+      "latest_version": "15-3.2-3-20260820",
+      "latest_version_code": 260820,
+      "updated_at": "2026-09-03T14:38:38.496714+00:00",
+      "versions": [
+        {
+          "version_name": "15-3.2-3-20260820",
+          "version_code": 260820,
+          "region": "unknown",
+          "file_name": "com.miui.misound_v15-3.2-3-20260820_unknown.apk",
+          "file_size": 18191889,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.miui.misound/com.miui.misound_v15-3.2-3-20260820_unknown.apk",
+          "min_sdk": 33,
+          "target_sdk": 36,
+          "source_channel": "@HyperOsUpdates",
+          "discovered_at": "2026-09-03T14:38:38.496714+00:00"
+        }
+      ]
+    },
+    "com.miui.cit": {
+      "name": "CIT",
+      "package_name": "com.miui.cit",
+      "icon": "icons/com.miui.cit.png",
+      "icon_url": "https://raw.githubusercontent.com/felipeolimadev/xiaomi-app-server/main/icons/com.miui.cit.png",
+      "latest_version": "1.9.8",
+      "latest_version_code": 198,
+      "updated_at": "2026-09-03T14:38:58.135782+00:00",
+      "versions": [
+        {
+          "version_name": "1.9.8",
+          "version_code": 198,
+          "region": "unknown",
+          "file_name": "com.miui.cit_v1.9.8_unknown.apk",
+          "file_size": 4699880,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.miui.cit/com.miui.cit_v1.9.8_unknown.apk",
+          "min_sdk": 29,
+          "target_sdk": 36,
+          "source_channel": "@HyperOsUpdates",
+          "discovered_at": "2026-09-03T14:38:58.135782+00:00"
         }
       ]
     }
