@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-09-03T14:42:40.434099+00:00",
+  "last_updated": "2026-09-03T18:09:06.135872+00:00",
   "apps": {
     "com.miui.home": {
       "name": "System launcher",
       "package_name": "com.miui.home",
       "icon": "icons/com.miui.home.png",
       "icon_url": "https://raw.githubusercontent.com/felipeolimadev/xiaomi-app-server/main/icons/com.miui.home.png",
-      "latest_version": "RELEASE-8.01.02.6230-260818-09011224-R",
-      "latest_version_code": 801026230,
-      "updated_at": "2026-09-02T11:48:13.226263+00:00",
+      "latest_version": "RELEASE-8.01.02.6236-260818-09031543-R",
+      "latest_version_code": 801026236,
+      "updated_at": "2026-09-03T18:08:32.245577+00:00",
       "versions": [
         {
           "version_name": "RELEASE-8.01.02.6174-260818-08281208-R",
@@ -93,6 +93,18 @@
           "target_sdk": 36,
           "source_channel": "@hyperossystemapps",
           "discovered_at": "2026-09-02T11:48:13.226263+00:00"
+        },
+        {
+          "version_name": "RELEASE-8.01.02.6236-260818-09031543-R",
+          "version_code": 801026236,
+          "region": "unknown",
+          "file_name": "com.miui.home_vRELEASE-8.01.02.6236-260818-09031543-R_unknown.apk",
+          "file_size": 73753480,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.miui.home/com.miui.home_vRELEASE-8.01.02.6236-260818-09031543-R_unknown.apk",
+          "min_sdk": 35,
+          "target_sdk": 36,
+          "source_channel": "@HyperOsUpdates",
+          "discovered_at": "2026-09-03T18:08:32.245577+00:00"
         }
       ]
     },
@@ -614,6 +626,29 @@
           "target_sdk": 36,
           "source_channel": "@HyperOsUpdates",
           "discovered_at": "2026-09-03T14:38:58.135782+00:00"
+        }
+      ]
+    },
+    "com.miui.bugreport": {
+      "name": "Feedback",
+      "package_name": "com.miui.bugreport",
+      "icon": "icons/com.miui.bugreport.png",
+      "icon_url": "https://raw.githubusercontent.com/felipeolimadev/xiaomi-app-server/main/icons/com.miui.bugreport.png",
+      "latest_version": "17.6.0.2",
+      "latest_version_code": 17006002,
+      "updated_at": "2026-09-03T18:09:06.132985+00:00",
+      "versions": [
+        {
+          "version_name": "17.6.0.2",
+          "version_code": 17006002,
+          "region": "unknown",
+          "file_name": "com.miui.bugreport_v17.6.0.2_unknown.apk",
+          "file_size": 16477434,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.miui.bugreport/com.miui.bugreport_v17.6.0.2_unknown.apk",
+          "min_sdk": 24,
+          "target_sdk": 35,
+          "source_channel": "@HyperOsUpdates",
+          "discovered_at": "2026-09-03T18:09:06.132985+00:00"
         }
       ]
     }
