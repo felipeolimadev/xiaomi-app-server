@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-04T15:09:50.114261+00:00",
+  "last_updated": "2026-09-04T18:25:18.002278+00:00",
   "apps": {
     "com.miui.home": {
       "name": "System launcher",
@@ -557,6 +557,18 @@
           "target_sdk": 36,
           "source_channel": "@HyperOsUpdates",
           "discovered_at": "2026-09-03T14:36:24.641868+00:00"
+        },
+        {
+          "version_name": "RG-26.08.05.00",
+          "version_code": 326080500,
+          "region": "global",
+          "file_name": "com.xiaomi.account_vRG-26.08.05.00_global.apk",
+          "file_size": 21189514,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.xiaomi.account/com.xiaomi.account_vRG-26.08.05.00_global.apk",
+          "min_sdk": 28,
+          "target_sdk": 36,
+          "source_channel": "@MiuiSystemUpdater",
+          "discovered_at": "2026-09-04T18:25:17.867596+00:00"
         }
       ]
     },
