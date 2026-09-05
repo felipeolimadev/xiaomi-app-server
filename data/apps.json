@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-09-05T05:45:55.454180+00:00",
+  "last_updated": "2026-09-05T10:41:26.116972+00:00",
   "apps": {
     "com.miui.home": {
       "name": "System launcher",
       "package_name": "com.miui.home",
       "icon": "icons/com.miui.home.png",
       "icon_url": "https://raw.githubusercontent.com/felipeolimadev/xiaomi-app-server/main/icons/com.miui.home.png",
-      "latest_version": "RELEASE-8.01.02.6236-260818-09031543-R",
-      "latest_version_code": 801026236,
-      "updated_at": "2026-09-03T18:08:32.245577+00:00",
+      "latest_version": "RELEASE-8.01.02.6241-260818-09051525-R",
+      "latest_version_code": 801026241,
+      "updated_at": "2026-09-05T10:38:03.181749+00:00",
       "versions": [
         {
           "version_name": "RELEASE-8.01.02.6174-260818-08281208-R",
@@ -105,6 +105,18 @@
           "target_sdk": 36,
           "source_channel": "@HyperOsUpdates",
           "discovered_at": "2026-09-03T18:08:32.245577+00:00"
+        },
+        {
+          "version_name": "RELEASE-8.01.02.6241-260818-09051525-R",
+          "version_code": 801026241,
+          "region": "unknown",
+          "file_name": "com.miui.home_vRELEASE-8.01.02.6241-260818-09051525-R_unknown.apk",
+          "file_size": 73749384,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.miui.home/com.miui.home_vRELEASE-8.01.02.6241-260818-09051525-R_unknown.apk",
+          "min_sdk": 35,
+          "target_sdk": 36,
+          "source_channel": "@hyperossystemapps",
+          "discovered_at": "2026-09-05T10:38:03.181749+00:00"
         }
       ]
     },
