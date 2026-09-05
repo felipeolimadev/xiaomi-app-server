@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-05T13:36:16.282355+00:00",
+  "last_updated": "2026-09-05T16:22:54.475647+00:00",
   "apps": {
     "com.miui.home": {
       "name": "System launcher",
@@ -242,9 +242,9 @@
       "package_name": "com.android.calendar",
       "icon": "icons/com.android.calendar.webp",
       "icon_url": "https://raw.githubusercontent.com/felipeolimadev/xiaomi-app-server/main/icons/com.android.calendar.webp",
-      "latest_version": "18.0.1.25",
-      "latest_version_code": 180001250,
-      "updated_at": "2026-08-31T15:32:59.404373+00:00",
+      "latest_version": "18.0.1.27",
+      "latest_version_code": 180001270,
+      "updated_at": "2026-09-05T16:17:48.628584+00:00",
       "versions": [
         {
           "version_name": "18.0.1.25",
@@ -257,6 +257,18 @@
           "target_sdk": 36,
           "source_channel": "@MiuiSystemUpdater",
           "discovered_at": "2026-08-31T15:32:59.404373+00:00"
+        },
+        {
+          "version_name": "18.0.1.27",
+          "version_code": 180001270,
+          "region": "unknown",
+          "file_name": "com.android.calendar_v18.0.1.27_unknown.apk",
+          "file_size": 17831276,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.android.calendar/com.android.calendar_v18.0.1.27_unknown.apk",
+          "min_sdk": 26,
+          "target_sdk": 36,
+          "source_channel": "@hyperossystemapps",
+          "discovered_at": "2026-09-05T16:17:48.628584+00:00"
         }
       ]
     },
@@ -697,6 +709,52 @@
           "target_sdk": 35,
           "source_channel": "@MiuiSystemUpdater",
           "discovered_at": "2026-09-04T06:33:04.093507+00:00"
+        }
+      ]
+    },
+    "com.miui.notes": {
+      "name": "Notes",
+      "package_name": "com.miui.notes",
+      "icon": "icons/com.miui.notes.png",
+      "icon_url": "https://raw.githubusercontent.com/felipeolimadev/xiaomi-app-server/main/icons/com.miui.notes.png",
+      "latest_version": "3.2.2.7",
+      "latest_version_code": 3227,
+      "updated_at": "2026-09-05T16:21:41.285342+00:00",
+      "versions": [
+        {
+          "version_name": "3.2.2.7",
+          "version_code": 3227,
+          "region": "unknown",
+          "file_name": "com.miui.notes_v3.2.2.7_unknown.apk",
+          "file_size": 82284077,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.miui.notes/com.miui.notes_v3.2.2.7_unknown.apk",
+          "min_sdk": 29,
+          "target_sdk": 36,
+          "source_channel": "@HyperOsUpdates",
+          "discovered_at": "2026-09-05T16:21:41.285342+00:00"
+        }
+      ]
+    },
+    "com.mi.android.globallauncher": {
+      "name": "POCO Launcher",
+      "package_name": "com.mi.android.globallauncher",
+      "icon": "icons/com.mi.android.globallauncher.webp",
+      "icon_url": "https://raw.githubusercontent.com/felipeolimadev/xiaomi-app-server/main/icons/com.mi.android.globallauncher.webp",
+      "latest_version": "RELEASE-7.50.06.2586-08251622",
+      "latest_version_code": 750062586,
+      "updated_at": "2026-09-05T16:22:54.471704+00:00",
+      "versions": [
+        {
+          "version_name": "RELEASE-7.50.06.2586-08251622",
+          "version_code": 750062586,
+          "region": "poco",
+          "file_name": "com.mi.android.globallauncher_vRELEASE-7.50.06.2586-08251622_poco.apk",
+          "file_size": 24319609,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.mi.android.globallauncher/com.mi.android.globallauncher_vRELEASE-7.50.06.2586-08251622_poco.apk",
+          "min_sdk": 34,
+          "target_sdk": 35,
+          "source_channel": "@HyperOsUpdates",
+          "discovered_at": "2026-09-05T16:22:54.471704+00:00"
         }
       ]
     }
