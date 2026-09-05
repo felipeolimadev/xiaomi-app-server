@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-05T10:41:26.116972+00:00",
+  "last_updated": "2026-09-05T13:36:16.282355+00:00",
   "apps": {
     "com.miui.home": {
       "name": "System launcher",
@@ -117,6 +117,18 @@
           "target_sdk": 36,
           "source_channel": "@hyperossystemapps",
           "discovered_at": "2026-09-05T10:38:03.181749+00:00"
+        },
+        {
+          "version_name": "RELEASE-7.50.06.2586-08251623",
+          "version_code": 750062586,
+          "region": "unknown",
+          "file_name": "com.miui.home_vRELEASE-7.50.06.2586-08251623_unknown.apk",
+          "file_size": 25455076,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.miui.home/com.miui.home_vRELEASE-7.50.06.2586-08251623_unknown.apk",
+          "min_sdk": 34,
+          "target_sdk": 35,
+          "source_channel": "@MiuiSystemUpdater",
+          "discovered_at": "2026-09-05T13:35:01.996779+00:00"
         }
       ]
     },
