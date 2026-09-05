@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-05T16:22:54.475647+00:00",
+  "last_updated": "2026-09-05T18:35:56.441439+00:00",
   "apps": {
     "com.miui.home": {
       "name": "System launcher",
@@ -755,6 +755,18 @@
           "target_sdk": 35,
           "source_channel": "@HyperOsUpdates",
           "discovered_at": "2026-09-05T16:22:54.471704+00:00"
+        },
+        {
+          "version_name": "RELEASE-7.50.06.2586-08251622",
+          "version_code": 750062586,
+          "region": "global",
+          "file_name": "com.mi.android.globallauncher_vRELEASE-7.50.06.2586-08251622_global.apk",
+          "file_size": 24319609,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.mi.android.globallauncher/com.mi.android.globallauncher_vRELEASE-7.50.06.2586-08251622_global.apk",
+          "min_sdk": 34,
+          "target_sdk": 35,
+          "source_channel": "@MiuiSystemUpdater",
+          "discovered_at": "2026-09-05T18:35:56.337493+00:00"
         }
       ]
     }
