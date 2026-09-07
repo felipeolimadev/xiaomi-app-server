@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-07T06:11:10.087229+00:00",
+  "last_updated": "2026-09-07T12:34:56.623096+00:00",
   "apps": {
     "com.miui.home": {
       "name": "System launcher",
@@ -825,6 +825,52 @@
           "target_sdk": 36,
           "source_channel": "@HyperOsUpdates",
           "discovered_at": "2026-09-07T06:11:10.083420+00:00"
+        }
+      ]
+    },
+    "com.miui.screenshot": {
+      "name": "Screenshot",
+      "package_name": "com.miui.screenshot",
+      "icon": "icons/com.miui.screenshot.png",
+      "icon_url": "https://raw.githubusercontent.com/felipeolimadev/xiaomi-app-server/main/icons/com.miui.screenshot.png",
+      "latest_version": "RELEASE-1.6.3.37-08262233",
+      "latest_version_code": 10603037,
+      "updated_at": "2026-09-07T12:33:32.056596+00:00",
+      "versions": [
+        {
+          "version_name": "RELEASE-1.6.3.37-08262233",
+          "version_code": 10603037,
+          "region": "unknown",
+          "file_name": "com.miui.screenshot_vRELEASE-1.6.3.37-08262233_unknown.apk",
+          "file_size": 10569447,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.miui.screenshot/com.miui.screenshot_vRELEASE-1.6.3.37-08262233_unknown.apk",
+          "min_sdk": 34,
+          "target_sdk": 36,
+          "source_channel": "@MiuiSystemUpdater",
+          "discovered_at": "2026-09-07T12:33:32.056596+00:00"
+        }
+      ]
+    },
+    "com.android.deskclock": {
+      "name": "Clock",
+      "package_name": "com.android.deskclock",
+      "icon": "icons/com.android.deskclock.png",
+      "icon_url": "https://raw.githubusercontent.com/felipeolimadev/xiaomi-app-server/main/icons/com.android.deskclock.png",
+      "latest_version": "18.26.0",
+      "latest_version_code": 1306002600,
+      "updated_at": "2026-09-07T12:34:27.031512+00:00",
+      "versions": [
+        {
+          "version_name": "18.26.0",
+          "version_code": 1306002600,
+          "region": "unknown",
+          "file_name": "com.android.deskclock_v18.26.0_unknown.apk",
+          "file_size": 18268236,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.android.deskclock/com.android.deskclock_v18.26.0_unknown.apk",
+          "min_sdk": 26,
+          "target_sdk": 35,
+          "source_channel": "@HyperOsUpdates",
+          "discovered_at": "2026-09-07T12:34:27.031512+00:00"
         }
       ]
     }
