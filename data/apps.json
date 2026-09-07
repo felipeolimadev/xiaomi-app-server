@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-07T01:01:22.351566+00:00",
+  "last_updated": "2026-09-07T06:11:10.087229+00:00",
   "apps": {
     "com.miui.home": {
       "name": "System launcher",
@@ -454,6 +454,18 @@
           "target_sdk": 35,
           "source_channel": "@HyperOsUpdates",
           "discovered_at": "2026-09-01T10:33:53.178964+00:00"
+        },
+        {
+          "version_name": "18.2.1.0.2609031004",
+          "version_code": 180020100,
+          "region": "unknown",
+          "file_name": "com.milink.service_v18.2.1.0.2609031004_unknown.apk",
+          "file_size": 63219166,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.milink.service/com.milink.service_v18.2.1.0.2609031004_unknown.apk",
+          "min_sdk": 28,
+          "target_sdk": 36,
+          "source_channel": "@HyperOsUpdates",
+          "discovered_at": "2026-09-07T06:10:29.453199+00:00"
         }
       ]
     },
@@ -790,6 +802,29 @@
           "target_sdk": 36,
           "source_channel": "@HyperOsUpdates",
           "discovered_at": "2026-09-06T16:18:22.996242+00:00"
+        }
+      ]
+    },
+    "com.miui.mishare.connectivity": {
+      "name": "Xiaomi Share",
+      "package_name": "com.miui.mishare.connectivity",
+      "icon": null,
+      "icon_url": null,
+      "latest_version": "5.3.4_20260826_1632",
+      "latest_version_code": 50304,
+      "updated_at": "2026-09-07T06:11:10.083420+00:00",
+      "versions": [
+        {
+          "version_name": "5.3.4_20260826_1632",
+          "version_code": 50304,
+          "region": "unknown",
+          "file_name": "com.miui.mishare.connectivity_v5.3.4_20260826_1632_unknown.apk",
+          "file_size": 13689261,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.miui.mishare.connectivity/com.miui.mishare.connectivity_v5.3.4_20260826_1632_unknown.apk",
+          "min_sdk": 26,
+          "target_sdk": 36,
+          "source_channel": "@HyperOsUpdates",
+          "discovered_at": "2026-09-07T06:11:10.083420+00:00"
         }
       ]
     }
