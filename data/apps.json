@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-09-07T12:34:56.623096+00:00",
+  "last_updated": "2026-09-07T18:07:32.087403+00:00",
   "apps": {
     "com.miui.home": {
       "name": "System launcher",
       "package_name": "com.miui.home",
       "icon": "icons/com.miui.home.png",
       "icon_url": "https://raw.githubusercontent.com/felipeolimadev/xiaomi-app-server/main/icons/com.miui.home.png",
-      "latest_version": "RELEASE-8.01.02.6241-260818-09051525-R",
-      "latest_version_code": 801026241,
-      "updated_at": "2026-09-05T10:38:03.181749+00:00",
+      "latest_version": "RELEASE-8.01.02.6245-260818-09071440-R",
+      "latest_version_code": 801026245,
+      "updated_at": "2026-09-07T17:57:56.464439+00:00",
       "versions": [
         {
           "version_name": "RELEASE-8.01.02.6174-260818-08281208-R",
@@ -129,6 +129,18 @@
           "target_sdk": 35,
           "source_channel": "@MiuiSystemUpdater",
           "discovered_at": "2026-09-05T13:35:01.996779+00:00"
+        },
+        {
+          "version_name": "RELEASE-8.01.02.6245-260818-09071440-R",
+          "version_code": 801026245,
+          "region": "unknown",
+          "file_name": "com.miui.home_vRELEASE-8.01.02.6245-260818-09071440-R_unknown.apk",
+          "file_size": 73765768,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.miui.home/com.miui.home_vRELEASE-8.01.02.6245-260818-09071440-R_unknown.apk",
+          "min_sdk": 35,
+          "target_sdk": 36,
+          "source_channel": "@hyperossystemapps",
+          "discovered_at": "2026-09-07T17:57:56.464439+00:00"
         }
       ]
     },
@@ -358,9 +370,9 @@
       "package_name": "com.android.camera",
       "icon": "icons/com.android.camera.webp",
       "icon_url": "https://raw.githubusercontent.com/felipeolimadev/xiaomi-app-server/main/icons/com.android.camera.webp",
-      "latest_version": "6.6.000540.1",
-      "latest_version_code": 660005401,
-      "updated_at": "2026-08-31T21:15:15.503504+00:00",
+      "latest_version": "6.8.000790.8",
+      "latest_version_code": 680007908,
+      "updated_at": "2026-09-07T18:01:37.723859+00:00",
       "versions": [
         {
           "version_name": "6.6.000540.1",
@@ -373,6 +385,18 @@
           "target_sdk": 36,
           "source_channel": "@HyperOsUpdates",
           "discovered_at": "2026-08-31T21:15:15.503504+00:00"
+        },
+        {
+          "version_name": "6.8.000790.8",
+          "version_code": 680007908,
+          "region": "unknown",
+          "file_name": "com.android.camera_v6.8.000790.8_unknown.apk",
+          "file_size": 191971728,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.android.camera/com.android.camera_v6.8.000790.8_unknown.apk",
+          "min_sdk": 29,
+          "target_sdk": 36,
+          "source_channel": "@hyperossystemapps",
+          "discovered_at": "2026-09-07T18:01:37.723859+00:00"
         }
       ]
     },
