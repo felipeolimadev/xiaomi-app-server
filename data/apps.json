@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-09T06:04:37.539241+00:00",
+  "last_updated": "2026-09-09T11:24:31.731769+00:00",
   "apps": {
     "com.miui.home": {
       "name": "System launcher",
@@ -943,6 +943,29 @@
           "target_sdk": 35,
           "source_channel": "@HyperOsUpdates",
           "discovered_at": "2026-09-07T12:34:27.031512+00:00"
+        }
+      ]
+    },
+    "com.miui.guardprovider": {
+      "name": "System security components",
+      "package_name": "com.miui.guardprovider",
+      "icon": "icons/com.miui.guardprovider.png",
+      "icon_url": "https://raw.githubusercontent.com/felipeolimadev/xiaomi-app-server/main/icons/com.miui.guardprovider.png",
+      "latest_version": "3.1.4-20260902.0",
+      "latest_version_code": 330,
+      "updated_at": "2026-09-09T11:24:31.728669+00:00",
+      "versions": [
+        {
+          "version_name": "3.1.4-20260902.0",
+          "version_code": 330,
+          "region": "unknown",
+          "file_name": "com.miui.guardprovider_v3.1.4-20260902.0_unknown.apk",
+          "file_size": 14502962,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.miui.guardprovider/com.miui.guardprovider_v3.1.4-20260902.0_unknown.apk",
+          "min_sdk": 33,
+          "target_sdk": 37,
+          "source_channel": "@HyperOsUpdates",
+          "discovered_at": "2026-09-09T11:24:31.728669+00:00"
         }
       ]
     }
