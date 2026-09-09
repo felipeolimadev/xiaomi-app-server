@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-09T01:15:24.223187+00:00",
+  "last_updated": "2026-09-09T06:04:37.539241+00:00",
   "apps": {
     "com.miui.home": {
       "name": "System launcher",
@@ -266,9 +266,9 @@
       "package_name": "com.android.calendar",
       "icon": "icons/com.android.calendar.webp",
       "icon_url": "https://raw.githubusercontent.com/felipeolimadev/xiaomi-app-server/main/icons/com.android.calendar.webp",
-      "latest_version": "18.0.1.27",
-      "latest_version_code": 180001270,
-      "updated_at": "2026-09-05T16:17:48.628584+00:00",
+      "latest_version": "18.0.1.29",
+      "latest_version_code": 180001290,
+      "updated_at": "2026-09-09T06:04:37.534716+00:00",
       "versions": [
         {
           "version_name": "18.0.1.25",
@@ -293,6 +293,18 @@
           "target_sdk": 36,
           "source_channel": "@hyperossystemapps",
           "discovered_at": "2026-09-05T16:17:48.628584+00:00"
+        },
+        {
+          "version_name": "18.0.1.29",
+          "version_code": 180001290,
+          "region": "unknown",
+          "file_name": "com.android.calendar_v18.0.1.29_unknown.apk",
+          "file_size": 17831276,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.android.calendar/com.android.calendar_v18.0.1.29_unknown.apk",
+          "min_sdk": 26,
+          "target_sdk": 36,
+          "source_channel": "@HyperOsUpdates",
+          "discovered_at": "2026-09-09T06:04:37.534716+00:00"
         }
       ]
     },
