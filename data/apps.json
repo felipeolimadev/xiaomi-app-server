@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-09-09T11:24:31.731769+00:00",
+  "last_updated": "2026-09-09T15:29:06.696622+00:00",
   "apps": {
     "com.miui.home": {
       "name": "System launcher",
       "package_name": "com.miui.home",
       "icon": "icons/com.miui.home.png",
       "icon_url": "https://raw.githubusercontent.com/felipeolimadev/xiaomi-app-server/main/icons/com.miui.home.png",
-      "latest_version": "RELEASE-8.01.02.6258-260818-09081742-R",
-      "latest_version_code": 801026258,
-      "updated_at": "2026-09-08T17:34:53.898814+00:00",
+      "latest_version": "RELEASE-8.01.02.6260-260818-09091429-R",
+      "latest_version_code": 801026260,
+      "updated_at": "2026-09-09T15:21:09.639906+00:00",
       "versions": [
         {
           "version_name": "RELEASE-8.01.02.6174-260818-08281208-R",
@@ -153,6 +153,30 @@
           "target_sdk": 36,
           "source_channel": "@hyperossystemapps",
           "discovered_at": "2026-09-08T17:34:53.898814+00:00"
+        },
+        {
+          "version_name": "RELEASE-8.01.02.6260-260818-09091429-R",
+          "version_code": 801026260,
+          "region": "unknown",
+          "file_name": "com.miui.home_vRELEASE-8.01.02.6260-260818-09091429-R_unknown.apk",
+          "file_size": 73716616,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.miui.home/com.miui.home_vRELEASE-8.01.02.6260-260818-09091429-R_unknown.apk",
+          "min_sdk": 35,
+          "target_sdk": 36,
+          "source_channel": "@hyperossystemapps",
+          "discovered_at": "2026-09-09T15:21:09.639906+00:00"
+        },
+        {
+          "version_name": "RELEASE-7.50.06.2592-09011644",
+          "version_code": 750062592,
+          "region": "unknown",
+          "file_name": "com.miui.home_vRELEASE-7.50.06.2592-09011644_unknown.apk",
+          "file_size": 28299477,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.miui.home/com.miui.home_vRELEASE-7.50.06.2592-09011644_unknown.apk",
+          "min_sdk": 34,
+          "target_sdk": 35,
+          "source_channel": "@HyperOsUpdates",
+          "discovered_at": "2026-09-09T15:25:34.156215+00:00"
         }
       ]
     },
@@ -966,6 +990,29 @@
           "target_sdk": 37,
           "source_channel": "@HyperOsUpdates",
           "discovered_at": "2026-09-09T11:24:31.728669+00:00"
+        }
+      ]
+    },
+    "com.android.fileexplorer": {
+      "name": "File Manager",
+      "package_name": "com.android.fileexplorer",
+      "icon": "icons/com.android.fileexplorer.png",
+      "icon_url": "https://raw.githubusercontent.com/felipeolimadev/xiaomi-app-server/main/icons/com.android.fileexplorer.png",
+      "latest_version": "9.2.5.3",
+      "latest_version_code": 9253,
+      "updated_at": "2026-09-09T15:26:28.501220+00:00",
+      "versions": [
+        {
+          "version_name": "9.2.5.3",
+          "version_code": 9253,
+          "region": "unknown",
+          "file_name": "com.android.fileexplorer_v9.2.5.3_unknown.apk",
+          "file_size": 22817164,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.android.fileexplorer/com.android.fileexplorer_v9.2.5.3_unknown.apk",
+          "min_sdk": 26,
+          "target_sdk": 36,
+          "source_channel": "@HyperOsUpdates",
+          "discovered_at": "2026-09-09T15:26:28.501220+00:00"
         }
       ]
     }
