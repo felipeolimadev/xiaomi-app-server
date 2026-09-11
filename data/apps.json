@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-11T13:36:03.800141+00:00",
+  "last_updated": "2026-09-11T17:22:24.665038+00:00",
   "apps": {
     "com.miui.home": {
       "name": "System launcher",
@@ -232,9 +232,9 @@
       "package_name": "com.miui.securitycenter",
       "icon": "icons/com.miui.securitycenter.png",
       "icon_url": "https://raw.githubusercontent.com/felipeolimadev/xiaomi-app-server/main/icons/com.miui.securitycenter.png",
-      "latest_version": "13.5.3-260822.0.1",
-      "latest_version_code": 40001353,
-      "updated_at": "2026-08-31T11:16:52.157483+00:00",
+      "latest_version": "13.5.9-260910.0.1",
+      "latest_version_code": 40001359,
+      "updated_at": "2026-09-11T17:22:24.657487+00:00",
       "versions": [
         {
           "version_name": "13.5.3-260822.0.1",
@@ -283,6 +283,18 @@
           "target_sdk": 35,
           "source_channel": "@MiuiSystemUpdater",
           "discovered_at": "2026-09-10T06:42:03.120322+00:00"
+        },
+        {
+          "version_name": "13.5.9-260910.0.1",
+          "version_code": 40001359,
+          "region": "unknown",
+          "file_name": "com.miui.securitycenter_v13.5.9-260910.0.1_unknown.apk",
+          "file_size": 81062054,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.miui.securitycenter/com.miui.securitycenter_v13.5.9-260910.0.1_unknown.apk",
+          "min_sdk": 26,
+          "target_sdk": 36,
+          "source_channel": "@HyperOsUpdates",
+          "discovered_at": "2026-09-11T17:22:24.657487+00:00"
         }
       ]
     },
@@ -407,9 +419,9 @@
       "package_name": "com.mi.appfinder",
       "icon": "icons/com.mi.appfinder.webp",
       "icon_url": "https://raw.githubusercontent.com/felipeolimadev/xiaomi-app-server/main/icons/com.mi.appfinder.webp",
-      "latest_version": "1.28.0",
-      "latest_version_code": 20260827,
-      "updated_at": "2026-08-31T21:12:41.512259+00:00",
+      "latest_version": "1.28.1",
+      "latest_version_code": 20260828,
+      "updated_at": "2026-09-11T17:17:47.749761+00:00",
       "versions": [
         {
           "version_name": "1.28.0",
@@ -434,6 +446,18 @@
           "target_sdk": 36,
           "source_channel": "@MiuiSystemUpdater",
           "discovered_at": "2026-09-01T10:32:19.508361+00:00"
+        },
+        {
+          "version_name": "1.28.1",
+          "version_code": 20260828,
+          "region": "unknown",
+          "file_name": "com.mi.appfinder_v1.28.1_unknown.apk",
+          "file_size": 52619295,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.mi.appfinder/com.mi.appfinder_v1.28.1_unknown.apk",
+          "min_sdk": 30,
+          "target_sdk": 36,
+          "source_channel": "@HyperOsUpdates",
+          "discovered_at": "2026-09-11T17:17:47.749761+00:00"
         }
       ]
     },
@@ -1061,6 +1085,29 @@
           "target_sdk": 36,
           "source_channel": "@HyperOsUpdates",
           "discovered_at": "2026-09-09T15:26:28.501220+00:00"
+        }
+      ]
+    },
+    "com.mi.globalminusscreen": {
+      "name": "App vault",
+      "package_name": "com.mi.globalminusscreen",
+      "icon": "icons/com.mi.globalminusscreen.png",
+      "icon_url": "https://raw.githubusercontent.com/felipeolimadev/xiaomi-app-server/main/icons/com.mi.globalminusscreen.png",
+      "latest_version": "13.74.0",
+      "latest_version_code": 20260822,
+      "updated_at": "2026-09-11T17:19:41.940488+00:00",
+      "versions": [
+        {
+          "version_name": "13.74.0",
+          "version_code": 20260822,
+          "region": "unknown",
+          "file_name": "com.mi.globalminusscreen_v13.74.0_unknown.apk",
+          "file_size": 50418528,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.mi.globalminusscreen/com.mi.globalminusscreen_v13.74.0_unknown.apk",
+          "min_sdk": 30,
+          "target_sdk": 36,
+          "source_channel": "@HyperOsUpdates",
+          "discovered_at": "2026-09-11T17:19:41.940488+00:00"
         }
       ]
     }
