@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-12T13:11:06.298408+00:00",
+  "last_updated": "2026-09-12T16:21:47.946270+00:00",
   "apps": {
     "com.miui.home": {
       "name": "System launcher",
@@ -189,6 +189,18 @@
           "target_sdk": 36,
           "source_channel": "@HyperOsUpdates",
           "discovered_at": "2026-09-10T16:28:42.442769+00:00"
+        },
+        {
+          "version_name": "RELEASE-7.50.06.2593-09011655",
+          "version_code": 750062593,
+          "region": "unknown",
+          "file_name": "com.miui.home_vRELEASE-7.50.06.2593-09011655_unknown.apk",
+          "file_size": 25459167,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.miui.home/com.miui.home_vRELEASE-7.50.06.2593-09011655_unknown.apk",
+          "min_sdk": 34,
+          "target_sdk": 35,
+          "source_channel": "@HyperOsUpdates",
+          "discovered_at": "2026-09-12T16:21:02.751129+00:00"
         }
       ]
     },
@@ -956,9 +968,9 @@
       "package_name": "com.mi.android.globallauncher",
       "icon": "icons/com.mi.android.globallauncher.webp",
       "icon_url": "https://raw.githubusercontent.com/felipeolimadev/xiaomi-app-server/main/icons/com.mi.android.globallauncher.webp",
-      "latest_version": "RELEASE-7.50.06.2592-09011644",
-      "latest_version_code": 750062592,
-      "updated_at": "2026-09-10T16:25:46.119249+00:00",
+      "latest_version": "RELEASE-7.50.06.2593-09011653",
+      "latest_version_code": 750062593,
+      "updated_at": "2026-09-12T16:21:47.941751+00:00",
       "versions": [
         {
           "version_name": "RELEASE-7.50.06.2586-08251622",
@@ -1007,6 +1019,18 @@
           "target_sdk": 35,
           "source_channel": "@HyperOsUpdates",
           "discovered_at": "2026-09-10T16:29:54.473117+00:00"
+        },
+        {
+          "version_name": "RELEASE-7.50.06.2593-09011653",
+          "version_code": 750062593,
+          "region": "poco",
+          "file_name": "com.mi.android.globallauncher_vRELEASE-7.50.06.2593-09011653_poco.apk",
+          "file_size": 24323696,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.mi.android.globallauncher/com.mi.android.globallauncher_vRELEASE-7.50.06.2593-09011653_poco.apk",
+          "min_sdk": 34,
+          "target_sdk": 35,
+          "source_channel": "@HyperOsUpdates",
+          "discovered_at": "2026-09-12T16:21:47.941751+00:00"
         }
       ]
     },
