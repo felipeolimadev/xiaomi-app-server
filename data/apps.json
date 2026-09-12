@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-11T22:39:12.074361+00:00",
+  "last_updated": "2026-09-12T00:41:43.352305+00:00",
   "apps": {
     "com.miui.home": {
       "name": "System launcher",
@@ -307,6 +307,18 @@
           "target_sdk": 36,
           "source_channel": "@HyperOsUpdates",
           "discovered_at": "2026-09-11T17:22:24.657487+00:00"
+        },
+        {
+          "version_name": "12.8.4-260908.1.1",
+          "version_code": 40001284,
+          "region": "unknown",
+          "file_name": "com.miui.securitycenter_v12.8.4-260908.1.1_unknown.apk",
+          "file_size": 112352251,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.miui.securitycenter/com.miui.securitycenter_v12.8.4-260908.1.1_unknown.apk",
+          "min_sdk": 26,
+          "target_sdk": 35,
+          "source_channel": "@HyperOsUpdates",
+          "discovered_at": "2026-09-12T00:41:43.345628+00:00"
         }
       ]
     },
