@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-12T05:05:51.841388+00:00",
+  "last_updated": "2026-09-12T09:24:43.002799+00:00",
   "apps": {
     "com.miui.home": {
       "name": "System launcher",
@@ -1168,6 +1168,18 @@
           "target_sdk": 36,
           "source_channel": "@HyperOsUpdates",
           "discovered_at": "2026-09-11T17:19:41.940488+00:00"
+        },
+        {
+          "version_name": "13.74.0",
+          "version_code": 20260822,
+          "region": "global",
+          "file_name": "com.mi.globalminusscreen_v13.74.0_global.apk",
+          "file_size": 50418528,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.mi.globalminusscreen/com.mi.globalminusscreen_v13.74.0_global.apk",
+          "min_sdk": 30,
+          "target_sdk": 36,
+          "source_channel": "@MiuiSystemUpdater",
+          "discovered_at": "2026-09-12T09:24:42.833415+00:00"
         }
       ]
     },
