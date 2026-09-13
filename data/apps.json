@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-13T06:46:54.356207+00:00",
+  "last_updated": "2026-09-13T12:48:21.334816+00:00",
   "apps": {
     "com.miui.home": {
       "name": "System launcher",
@@ -596,9 +596,9 @@
       "package_name": "com.miui.gallery",
       "icon": "icons/com.miui.gallery.png",
       "icon_url": "https://raw.githubusercontent.com/felipeolimadev/xiaomi-app-server/main/icons/com.miui.gallery.png",
-      "latest_version": "5.0.7.13-0818-R",
-      "latest_version_code": 5000713,
-      "updated_at": "2026-09-01T10:31:23.249258+00:00",
+      "latest_version": "5.4.2.10-0907-cn",
+      "latest_version_code": 5040210,
+      "updated_at": "2026-09-13T12:48:21.329211+00:00",
       "versions": [
         {
           "version_name": "5.0.7.13-0818-R",
@@ -611,6 +611,18 @@
           "target_sdk": 35,
           "source_channel": "@hyperossystemapps",
           "discovered_at": "2026-09-01T10:31:23.249258+00:00"
+        },
+        {
+          "version_name": "5.4.2.10-0907-cn",
+          "version_code": 5040210,
+          "region": "china",
+          "file_name": "com.miui.gallery_v5.4.2.10-0907-cn_china.apk",
+          "file_size": 45853845,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.miui.gallery/com.miui.gallery_v5.4.2.10-0907-cn_china.apk",
+          "min_sdk": 35,
+          "target_sdk": 36,
+          "source_channel": "@HyperOsUpdates",
+          "discovered_at": "2026-09-13T12:48:21.329211+00:00"
         }
       ]
     },
@@ -1031,6 +1043,18 @@
           "target_sdk": 35,
           "source_channel": "@HyperOsUpdates",
           "discovered_at": "2026-09-12T16:21:47.941751+00:00"
+        },
+        {
+          "version_name": "RELEASE-7.50.06.2593-09011653",
+          "version_code": 750062593,
+          "region": "global",
+          "file_name": "com.mi.android.globallauncher_vRELEASE-7.50.06.2593-09011653_global.apk",
+          "file_size": 24323696,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.mi.android.globallauncher/com.mi.android.globallauncher_vRELEASE-7.50.06.2593-09011653_global.apk",
+          "min_sdk": 34,
+          "target_sdk": 35,
+          "source_channel": "@MiuiSystemUpdater",
+          "discovered_at": "2026-09-13T12:45:04.963543+00:00"
         }
       ]
     },
@@ -1239,6 +1263,29 @@
           "target_sdk": 35,
           "source_channel": "@HyperOsUpdates",
           "discovered_at": "2026-09-11T22:36:57.769600+00:00"
+        }
+      ]
+    },
+    "com.hyper.gallery.plugin": {
+      "name": "Gallery components",
+      "package_name": "com.hyper.gallery.plugin",
+      "icon": "icons/com.hyper.gallery.plugin.png",
+      "icon_url": "https://raw.githubusercontent.com/felipeolimadev/xiaomi-app-server/main/icons/com.hyper.gallery.plugin.png",
+      "latest_version": "5.4.2.5",
+      "latest_version_code": 5040205,
+      "updated_at": "2026-09-13T12:46:16.216069+00:00",
+      "versions": [
+        {
+          "version_name": "5.4.2.5",
+          "version_code": 5040205,
+          "region": "unknown",
+          "file_name": "com.hyper.gallery.plugin_v5.4.2.5_unknown.apk",
+          "file_size": 25178424,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.hyper.gallery.plugin/com.hyper.gallery.plugin_v5.4.2.5_unknown.apk",
+          "min_sdk": 34,
+          "target_sdk": 36,
+          "source_channel": "@HyperOsUpdates",
+          "discovered_at": "2026-09-13T12:46:16.216069+00:00"
         }
       ]
     }
