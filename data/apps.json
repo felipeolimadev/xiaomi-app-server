@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-15T06:20:57.190408+00:00",
+  "last_updated": "2026-09-15T11:54:52.126144+00:00",
   "apps": {
     "com.miui.home": {
       "name": "System launcher",
@@ -367,6 +367,18 @@
           "target_sdk": 35,
           "source_channel": "@MiuiSystemUpdater",
           "discovered_at": "2026-09-12T13:11:06.184139+00:00"
+        },
+        {
+          "version_name": "13.5.8-260907.1.1",
+          "version_code": 40001358,
+          "region": "global",
+          "file_name": "com.miui.securitycenter_v13.5.8-260907.1.1_global.apk",
+          "file_size": 109192818,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.miui.securitycenter/com.miui.securitycenter_v13.5.8-260907.1.1_global.apk",
+          "min_sdk": 26,
+          "target_sdk": 36,
+          "source_channel": "@hyperossystemapps",
+          "discovered_at": "2026-09-15T11:47:27.460992+00:00"
         }
       ]
     },
@@ -1346,6 +1358,98 @@
           "target_sdk": 36,
           "source_channel": "@HyperOsUpdates",
           "discovered_at": "2026-09-13T12:46:16.216069+00:00"
+        }
+      ]
+    },
+    "com.android.thememanager": {
+      "name": "Themes",
+      "package_name": "com.android.thememanager",
+      "icon": "icons/com.android.thememanager.webp",
+      "icon_url": "https://raw.githubusercontent.com/felipeolimadev/xiaomi-app-server/main/icons/com.android.thememanager.webp",
+      "latest_version": "3.4.1.23-global",
+      "latest_version_code": 3040123,
+      "updated_at": "2026-09-15T11:48:34.578024+00:00",
+      "versions": [
+        {
+          "version_name": "3.4.1.23-global",
+          "version_code": 3040123,
+          "region": "global",
+          "file_name": "com.android.thememanager_v3.4.1.23-global_global.apk",
+          "file_size": 66960639,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.android.thememanager/com.android.thememanager_v3.4.1.23-global_global.apk",
+          "min_sdk": 27,
+          "target_sdk": 36,
+          "source_channel": "@MiuiSystemUpdater",
+          "discovered_at": "2026-09-15T11:48:34.578024+00:00"
+        }
+      ]
+    },
+    "com.mi.android.globalFileexplorer": {
+      "name": "File Manager",
+      "package_name": "com.mi.android.globalFileexplorer",
+      "icon": "icons/com.mi.android.globalFileexplorer.png",
+      "icon_url": "https://raw.githubusercontent.com/felipeolimadev/xiaomi-app-server/main/icons/com.mi.android.globalFileexplorer.png",
+      "latest_version": "V1-260253",
+      "latest_version_code": 20260253,
+      "updated_at": "2026-09-15T11:49:05.878099+00:00",
+      "versions": [
+        {
+          "version_name": "V1-260253",
+          "version_code": 20260253,
+          "region": "global",
+          "file_name": "com.mi.android.globalFileexplorer_vV1-260253_global.apk",
+          "file_size": 28144738,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.mi.android.globalFileexplorer/com.mi.android.globalFileexplorer_vV1-260253_global.apk",
+          "min_sdk": 26,
+          "target_sdk": 36,
+          "source_channel": "@MiuiSystemUpdater",
+          "discovered_at": "2026-09-15T11:49:05.878099+00:00"
+        }
+      ]
+    },
+    "com.android.incallui": {
+      "name": "Phone",
+      "package_name": "com.android.incallui",
+      "icon": null,
+      "icon_url": null,
+      "latest_version": "40.01.52",
+      "latest_version_code": 5986,
+      "updated_at": "2026-09-15T11:54:18.039916+00:00",
+      "versions": [
+        {
+          "version_name": "40.01.52",
+          "version_code": 5986,
+          "region": "unknown",
+          "file_name": "com.android.incallui_v40.01.52_unknown.apk",
+          "file_size": 9806458,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.android.incallui/com.android.incallui_v40.01.52_unknown.apk",
+          "min_sdk": 33,
+          "target_sdk": 37,
+          "source_channel": "@HyperOsUpdates",
+          "discovered_at": "2026-09-15T11:54:18.039916+00:00"
+        }
+      ]
+    },
+    "com.android.mms": {
+      "name": "Messaging",
+      "package_name": "com.android.mms",
+      "icon": "icons/com.android.mms.webp",
+      "icon_url": "https://raw.githubusercontent.com/felipeolimadev/xiaomi-app-server/main/icons/com.android.mms.webp",
+      "latest_version": "18.0.0.36-gl",
+      "latest_version_code": 180000036,
+      "updated_at": "2026-09-15T11:54:52.119400+00:00",
+      "versions": [
+        {
+          "version_name": "18.0.0.36-gl",
+          "version_code": 180000036,
+          "region": "unknown",
+          "file_name": "com.android.mms_v18.0.0.36-gl_unknown.apk",
+          "file_size": 31833831,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.android.mms/com.android.mms_v18.0.0.36-gl_unknown.apk",
+          "min_sdk": 29,
+          "target_sdk": 36,
+          "source_channel": "@HyperOsUpdates",
+          "discovered_at": "2026-09-15T11:54:52.119400+00:00"
         }
       ]
     }
