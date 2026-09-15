@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-15T00:58:30.620195+00:00",
+  "last_updated": "2026-09-15T06:20:57.190408+00:00",
   "apps": {
     "com.miui.home": {
       "name": "System launcher",
@@ -647,6 +647,18 @@
           "target_sdk": 36,
           "source_channel": "@HyperOsUpdates",
           "discovered_at": "2026-09-13T12:48:21.329211+00:00"
+        },
+        {
+          "version_name": "5.4.2.10-0907-global",
+          "version_code": 5040210,
+          "region": "global",
+          "file_name": "com.miui.gallery_v5.4.2.10-0907-global_global.apk",
+          "file_size": 111238774,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.miui.gallery/com.miui.gallery_v5.4.2.10-0907-global_global.apk",
+          "min_sdk": 35,
+          "target_sdk": 36,
+          "source_channel": "@hyperossystemapps",
+          "discovered_at": "2026-09-15T06:16:45.059498+00:00"
         }
       ]
     },
@@ -787,6 +799,18 @@
           "target_sdk": 36,
           "source_channel": "@HyperOsUpdates",
           "discovered_at": "2026-09-02T11:50:05.157905+00:00"
+        },
+        {
+          "version_name": "G-18.0.0.24-R",
+          "version_code": 180000240,
+          "region": "global",
+          "file_name": "com.miui.weather2_vG-18.0.0.24-R_global.apk",
+          "file_size": 45334680,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.miui.weather2/com.miui.weather2_vG-18.0.0.24-R_global.apk",
+          "min_sdk": 24,
+          "target_sdk": 36,
+          "source_channel": "@hyperossystemapps",
+          "discovered_at": "2026-09-15T06:18:30.752806+00:00"
         }
       ]
     },
@@ -996,6 +1020,18 @@
           "target_sdk": 36,
           "source_channel": "@HyperOsUpdates",
           "discovered_at": "2026-09-08T13:41:42.868509+00:00"
+        },
+        {
+          "version_name": "3.2.2.7",
+          "version_code": 3227,
+          "region": "global",
+          "file_name": "com.miui.notes_v3.2.2.7_global.apk",
+          "file_size": 77310874,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.miui.notes/com.miui.notes_v3.2.2.7_global.apk",
+          "min_sdk": 29,
+          "target_sdk": 36,
+          "source_channel": "@hyperossystemapps",
+          "discovered_at": "2026-09-15T06:14:13.119394+00:00"
         }
       ]
     },
