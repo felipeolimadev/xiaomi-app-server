@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-15T19:16:18.984705+00:00",
+  "last_updated": "2026-09-15T22:28:42.029825+00:00",
   "apps": {
     "com.miui.home": {
       "name": "System launcher",
@@ -601,6 +601,18 @@
           "target_sdk": 36,
           "source_channel": "@hyperossystemapps",
           "discovered_at": "2026-09-07T18:01:37.723859+00:00"
+        },
+        {
+          "version_name": "6.6.000570.6",
+          "version_code": 660005706,
+          "region": "poco",
+          "file_name": "com.android.camera_v6.6.000570.6_poco.apk",
+          "file_size": 190700536,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.android.camera/com.android.camera_v6.6.000570.6_poco.apk",
+          "min_sdk": 29,
+          "target_sdk": 36,
+          "source_channel": "@HyperOsUpdates",
+          "discovered_at": "2026-09-15T22:28:42.017767+00:00"
         }
       ]
     },
