@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-09-15T11:54:52.126144+00:00",
+  "last_updated": "2026-09-15T15:53:42.559469+00:00",
   "apps": {
     "com.miui.home": {
       "name": "System launcher",
       "package_name": "com.miui.home",
       "icon": "icons/com.miui.home.png",
       "icon_url": "https://raw.githubusercontent.com/felipeolimadev/xiaomi-app-server/main/icons/com.miui.home.png",
-      "latest_version": "RELEASE-8.01.02.7653-260904-09092213-R",
-      "latest_version_code": 801027653,
-      "updated_at": "2026-09-14T14:08:10.858306+00:00",
+      "latest_version": "RELEASE-8.01.02.7654-260904-09111122-R",
+      "latest_version_code": 801027654,
+      "updated_at": "2026-09-15T15:49:49.921211+00:00",
       "versions": [
         {
           "version_name": "RELEASE-8.01.02.6174-260818-08281208-R",
@@ -225,6 +225,18 @@
           "target_sdk": 36,
           "source_channel": "@hyperossystemapps",
           "discovered_at": "2026-09-14T14:08:10.858306+00:00"
+        },
+        {
+          "version_name": "RELEASE-8.01.02.7654-260904-09111122-R",
+          "version_code": 801027654,
+          "region": "unknown",
+          "file_name": "com.miui.home_vRELEASE-8.01.02.7654-260904-09111122-R_unknown.apk",
+          "file_size": 57740340,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.miui.home/com.miui.home_vRELEASE-8.01.02.7654-260904-09111122-R_unknown.apk",
+          "min_sdk": 35,
+          "target_sdk": 36,
+          "source_channel": "@hyperossystemapps",
+          "discovered_at": "2026-09-15T15:49:49.921211+00:00"
         }
       ]
     },
@@ -671,6 +683,18 @@
           "target_sdk": 36,
           "source_channel": "@hyperossystemapps",
           "discovered_at": "2026-09-15T06:16:45.059498+00:00"
+        },
+        {
+          "version_name": "5.4.2.10-0907-cn",
+          "version_code": 5040210,
+          "region": "unknown",
+          "file_name": "com.miui.gallery_v5.4.2.10-0907-cn_unknown.apk",
+          "file_size": 104150727,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.miui.gallery/com.miui.gallery_v5.4.2.10-0907-cn_unknown.apk",
+          "min_sdk": 35,
+          "target_sdk": 36,
+          "source_channel": "@hyperossystemapps",
+          "discovered_at": "2026-09-15T15:47:37.155004+00:00"
         }
       ]
     },
@@ -1450,6 +1474,29 @@
           "target_sdk": 36,
           "source_channel": "@HyperOsUpdates",
           "discovered_at": "2026-09-15T11:54:52.119400+00:00"
+        }
+      ]
+    },
+    "com.miui.touchassistant": {
+      "name": "Quick ball",
+      "package_name": "com.miui.touchassistant",
+      "icon": "icons/com.miui.touchassistant.png",
+      "icon_url": "https://raw.githubusercontent.com/felipeolimadev/xiaomi-app-server/main/icons/com.miui.touchassistant.png",
+      "latest_version": "17.0.0.9.0",
+      "latest_version_code": 170000090,
+      "updated_at": "2026-09-15T15:50:02.359400+00:00",
+      "versions": [
+        {
+          "version_name": "17.0.0.9.0",
+          "version_code": 170000090,
+          "region": "global",
+          "file_name": "com.miui.touchassistant_v17.0.0.9.0_global.apk",
+          "file_size": 6359883,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.miui.touchassistant/com.miui.touchassistant_v17.0.0.9.0_global.apk",
+          "min_sdk": 28,
+          "target_sdk": 36,
+          "source_channel": "@MiuiSystemUpdater",
+          "discovered_at": "2026-09-15T15:50:02.359400+00:00"
         }
       ]
     }
