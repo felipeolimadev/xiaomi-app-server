@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-16T00:49:28.433581+00:00",
+  "last_updated": "2026-09-16T06:05:40.834562+00:00",
   "apps": {
     "com.miui.home": {
       "name": "System launcher",
@@ -621,9 +621,9 @@
       "package_name": "com.xiaomi.aicr",
       "icon": "icons/com.xiaomi.aicr.webp",
       "icon_url": "https://raw.githubusercontent.com/felipeolimadev/xiaomi-app-server/main/icons/com.xiaomi.aicr.webp",
-      "latest_version": "4.12.16",
-      "latest_version_code": 2030041216,
-      "updated_at": "2026-08-31T21:17:49.659340+00:00",
+      "latest_version": "4.12.20",
+      "latest_version_code": 2030041220,
+      "updated_at": "2026-09-16T06:05:40.827173+00:00",
       "versions": [
         {
           "version_name": "4.12.16",
@@ -648,6 +648,18 @@
           "target_sdk": 36,
           "source_channel": "@HyperOsUpdates",
           "discovered_at": "2026-09-03T14:37:55.886109+00:00"
+        },
+        {
+          "version_name": "4.12.20",
+          "version_code": 2030041220,
+          "region": "unknown",
+          "file_name": "com.xiaomi.aicr_v4.12.20_unknown.apk",
+          "file_size": 72266198,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.xiaomi.aicr/com.xiaomi.aicr_v4.12.20_unknown.apk",
+          "min_sdk": 34,
+          "target_sdk": 36,
+          "source_channel": "@HyperOsUpdates",
+          "discovered_at": "2026-09-16T06:05:40.827173+00:00"
         }
       ]
     },
