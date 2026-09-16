@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-16T06:05:40.834562+00:00",
+  "last_updated": "2026-09-16T11:39:57.438928+00:00",
   "apps": {
     "com.miui.home": {
       "name": "System launcher",
@@ -504,9 +504,9 @@
       "package_name": "com.miui.mediaeditor",
       "icon": "icons/com.miui.mediaeditor.png",
       "icon_url": "https://raw.githubusercontent.com/felipeolimadev/xiaomi-app-server/main/icons/com.miui.mediaeditor.png",
-      "latest_version": "2.4.0.5.2-global",
-      "latest_version_code": 204990052,
-      "updated_at": "2026-08-31T21:08:42.785005+00:00",
+      "latest_version": "2.10.40.4.8-global",
+      "latest_version_code": 210994048,
+      "updated_at": "2026-09-16T11:39:57.249275+00:00",
       "versions": [
         {
           "version_name": "2.4.0.5.2-global",
@@ -519,6 +519,18 @@
           "target_sdk": 35,
           "source_channel": "@MiuiSystemUpdater",
           "discovered_at": "2026-08-31T21:08:42.785005+00:00"
+        },
+        {
+          "version_name": "2.10.40.4.8-global",
+          "version_code": 210994048,
+          "region": "global",
+          "file_name": "com.miui.mediaeditor_v2.10.40.4.8-global_global.apk",
+          "file_size": 256835800,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.miui.mediaeditor/com.miui.mediaeditor_v2.10.40.4.8-global_global.apk",
+          "min_sdk": 33,
+          "target_sdk": 36,
+          "source_channel": "@MiuiSystemUpdater",
+          "discovered_at": "2026-09-16T11:39:57.249275+00:00"
         }
       ]
     },
@@ -1533,6 +1545,29 @@
           "target_sdk": 36,
           "source_channel": "@MiuiSystemUpdater",
           "discovered_at": "2026-09-15T15:50:02.359400+00:00"
+        }
+      ]
+    },
+    "com.xiaomi.calendar": {
+      "name": "Calendar",
+      "package_name": "com.xiaomi.calendar",
+      "icon": "icons/com.xiaomi.calendar.webp",
+      "icon_url": "https://raw.githubusercontent.com/felipeolimadev/xiaomi-app-server/main/icons/com.xiaomi.calendar.webp",
+      "latest_version": "G-18.0.6",
+      "latest_version_code": 180006000,
+      "updated_at": "2026-09-16T11:34:52.073362+00:00",
+      "versions": [
+        {
+          "version_name": "G-18.0.6",
+          "version_code": 180006000,
+          "region": "global",
+          "file_name": "com.xiaomi.calendar_vG-18.0.6_global.apk",
+          "file_size": 22042966,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.xiaomi.calendar/com.xiaomi.calendar_vG-18.0.6_global.apk",
+          "min_sdk": 26,
+          "target_sdk": 36,
+          "source_channel": "@MiuiSystemUpdater",
+          "discovered_at": "2026-09-16T11:34:52.073362+00:00"
         }
       ]
     }
