@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-09-16T11:39:57.438928+00:00",
+  "last_updated": "2026-09-16T15:44:04.276379+00:00",
   "apps": {
     "com.miui.home": {
       "name": "System launcher",
       "package_name": "com.miui.home",
       "icon": "icons/com.miui.home.png",
       "icon_url": "https://raw.githubusercontent.com/felipeolimadev/xiaomi-app-server/main/icons/com.miui.home.png",
-      "latest_version": "RELEASE-8.01.02.7654-260904-09111122-R",
-      "latest_version_code": 801027654,
-      "updated_at": "2026-09-15T15:49:49.921211+00:00",
+      "latest_version": "RELEASE-8.01.02.7694-260904-09151038-R",
+      "latest_version_code": 801027694,
+      "updated_at": "2026-09-16T15:38:38.666366+00:00",
       "versions": [
         {
           "version_name": "RELEASE-8.01.02.6174-260818-08281208-R",
@@ -237,6 +237,18 @@
           "target_sdk": 36,
           "source_channel": "@hyperossystemapps",
           "discovered_at": "2026-09-15T15:49:49.921211+00:00"
+        },
+        {
+          "version_name": "RELEASE-8.01.02.7694-260904-09151038-R",
+          "version_code": 801027694,
+          "region": "unknown",
+          "file_name": "com.miui.home_vRELEASE-8.01.02.7694-260904-09151038-R_unknown.apk",
+          "file_size": 75608968,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.miui.home/com.miui.home_vRELEASE-8.01.02.7694-260904-09151038-R_unknown.apk",
+          "min_sdk": 35,
+          "target_sdk": 36,
+          "source_channel": "@hyperossystemapps",
+          "discovered_at": "2026-09-16T15:38:38.666366+00:00"
         }
       ]
     },
@@ -292,9 +304,9 @@
       "package_name": "com.miui.securitycenter",
       "icon": "icons/com.miui.securitycenter.png",
       "icon_url": "https://raw.githubusercontent.com/felipeolimadev/xiaomi-app-server/main/icons/com.miui.securitycenter.png",
-      "latest_version": "13.5.9-260910.0.1",
-      "latest_version_code": 40001359,
-      "updated_at": "2026-09-11T17:22:24.657487+00:00",
+      "latest_version": "13.6.0-260914.0.1",
+      "latest_version_code": 40001360,
+      "updated_at": "2026-09-16T15:41:39.836845+00:00",
       "versions": [
         {
           "version_name": "13.5.3-260822.0.1",
@@ -391,6 +403,18 @@
           "target_sdk": 36,
           "source_channel": "@hyperossystemapps",
           "discovered_at": "2026-09-15T11:47:27.460992+00:00"
+        },
+        {
+          "version_name": "13.6.0-260914.0.1",
+          "version_code": 40001360,
+          "region": "unknown",
+          "file_name": "com.miui.securitycenter_v13.6.0-260914.0.1_unknown.apk",
+          "file_size": 81045670,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.miui.securitycenter/com.miui.securitycenter_v13.6.0-260914.0.1_unknown.apk",
+          "min_sdk": 26,
+          "target_sdk": 36,
+          "source_channel": "@HyperOsUpdates",
+          "discovered_at": "2026-09-16T15:41:39.836845+00:00"
         }
       ]
     },
@@ -778,6 +802,18 @@
           "target_sdk": 35,
           "source_channel": "@HyperOsUpdates",
           "discovered_at": "2026-09-11T22:39:12.070299+00:00"
+        },
+        {
+          "version_name": "18.2.2.0.2609141543",
+          "version_code": 180020200,
+          "region": "unknown",
+          "file_name": "com.milink.service_v18.2.2.0.2609141543_unknown.apk",
+          "file_size": 63522385,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.milink.service/com.milink.service_v18.2.2.0.2609141543_unknown.apk",
+          "min_sdk": 28,
+          "target_sdk": 36,
+          "source_channel": "@hyperossystemapps",
+          "discovered_at": "2026-09-16T15:35:52.149923+00:00"
         }
       ]
     },
@@ -868,9 +904,9 @@
       "package_name": "com.miui.weather2",
       "icon": "icons/com.miui.weather2.webp",
       "icon_url": "https://raw.githubusercontent.com/felipeolimadev/xiaomi-app-server/main/icons/com.miui.weather2.webp",
-      "latest_version": "18.0.0.24-R",
-      "latest_version_code": 180000240,
-      "updated_at": "2026-09-02T11:50:05.157905+00:00",
+      "latest_version": "18.0.0.25-R",
+      "latest_version_code": 180000250,
+      "updated_at": "2026-09-16T15:44:04.268967+00:00",
       "versions": [
         {
           "version_name": "18.0.0.24-R",
@@ -895,6 +931,18 @@
           "target_sdk": 36,
           "source_channel": "@hyperossystemapps",
           "discovered_at": "2026-09-15T06:18:30.752806+00:00"
+        },
+        {
+          "version_name": "18.0.0.25-R",
+          "version_code": 180000250,
+          "region": "unknown",
+          "file_name": "com.miui.weather2_v18.0.0.25-R_unknown.apk",
+          "file_size": 65376109,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.miui.weather2/com.miui.weather2_v18.0.0.25-R_unknown.apk",
+          "min_sdk": 24,
+          "target_sdk": 36,
+          "source_channel": "@HyperOsUpdates",
+          "discovered_at": "2026-09-16T15:44:04.268967+00:00"
         }
       ]
     },
