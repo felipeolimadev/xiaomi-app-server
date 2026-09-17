@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-09-17T05:26:35.727762+00:00",
+  "last_updated": "2026-09-17T10:39:54.822220+00:00",
   "apps": {
     "com.miui.home": {
       "name": "System launcher",
       "package_name": "com.miui.home",
       "icon": "icons/com.miui.home.png",
       "icon_url": "https://raw.githubusercontent.com/felipeolimadev/xiaomi-app-server/main/icons/com.miui.home.png",
-      "latest_version": "RELEASE-8.01.02.7694-260904-09151038-R",
-      "latest_version_code": 801027694,
-      "updated_at": "2026-09-16T15:38:38.666366+00:00",
+      "latest_version": "RELEASE-8.01.02.7709-260904-09171430-R",
+      "latest_version_code": 801027709,
+      "updated_at": "2026-09-17T10:39:54.815767+00:00",
       "versions": [
         {
           "version_name": "RELEASE-8.01.02.6174-260818-08281208-R",
@@ -249,6 +249,30 @@
           "target_sdk": 36,
           "source_channel": "@hyperossystemapps",
           "discovered_at": "2026-09-16T15:38:38.666366+00:00"
+        },
+        {
+          "version_name": "RELEASE-8.01.02.7695-260904-09171443-R",
+          "version_code": 801027695,
+          "region": "unknown",
+          "file_name": "com.miui.home_vRELEASE-8.01.02.7695-260904-09171443-R_unknown.apk",
+          "file_size": 75613064,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.miui.home/com.miui.home_vRELEASE-8.01.02.7695-260904-09171443-R_unknown.apk",
+          "min_sdk": 35,
+          "target_sdk": 36,
+          "source_channel": "@hyperossystemapps",
+          "discovered_at": "2026-09-17T10:31:11.437077+00:00"
+        },
+        {
+          "version_name": "RELEASE-8.01.02.7709-260904-09171430-R",
+          "version_code": 801027709,
+          "region": "unknown",
+          "file_name": "com.miui.home_vRELEASE-8.01.02.7709-260904-09171430-R_unknown.apk",
+          "file_size": 75613063,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.miui.home/com.miui.home_vRELEASE-8.01.02.7709-260904-09171430-R_unknown.apk",
+          "min_sdk": 35,
+          "target_sdk": 36,
+          "source_channel": "@HyperOsUpdates",
+          "discovered_at": "2026-09-17T10:39:54.815767+00:00"
         }
       ]
     },
@@ -649,6 +673,18 @@
           "target_sdk": 36,
           "source_channel": "@HyperOsUpdates",
           "discovered_at": "2026-09-15T22:28:42.017767+00:00"
+        },
+        {
+          "version_name": "6.7.000180.0",
+          "version_code": 670001800,
+          "region": "poco",
+          "file_name": "com.android.camera_v6.7.000180.0_poco.apk",
+          "file_size": 198788689,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.android.camera/com.android.camera_v6.7.000180.0_poco.apk",
+          "min_sdk": 29,
+          "target_sdk": 36,
+          "source_channel": "@HyperOsUpdates",
+          "discovered_at": "2026-09-17T10:35:30.983466+00:00"
         }
       ]
     },
@@ -1570,6 +1606,18 @@
           "target_sdk": 36,
           "source_channel": "@HyperOsUpdates",
           "discovered_at": "2026-09-15T11:54:52.119400+00:00"
+        },
+        {
+          "version_name": "18.0.0.36-gl",
+          "version_code": 180000036,
+          "region": "global",
+          "file_name": "com.android.mms_v18.0.0.36-gl_global.apk",
+          "file_size": 31833831,
+          "download_url": "https://github.com/felipeolimadev/xiaomi-app-server/releases/download/com.android.mms/com.android.mms_v18.0.0.36-gl_global.apk",
+          "min_sdk": 29,
+          "target_sdk": 36,
+          "source_channel": "@MiuiSystemUpdater",
+          "discovered_at": "2026-09-17T10:32:16.112896+00:00"
         }
       ]
     },
